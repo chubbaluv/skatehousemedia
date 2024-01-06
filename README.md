@@ -1,3 +1,8 @@
+## TO-DO List
+Setup some quality of life stuff
+Build everything
+Setup a GH action that builds and syncs distro folder to S3
+
 ## General Architecture
 
 This archive site is powered by NextJS static builds. Build files are deployed to an S3 bucket via GitHub actions when PRs or changes are pushed to main.
