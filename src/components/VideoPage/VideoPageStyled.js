@@ -34,3 +34,11 @@ export const VideoWrapper = styled.div`
     width: 100%;
   }
 `;
+
+export const TitleWrapper = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-block-end: ${basePadding.large};
+  padding: 0 ${basePadding.large};
+`;

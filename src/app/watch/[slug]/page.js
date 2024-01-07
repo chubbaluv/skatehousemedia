@@ -8,10 +8,10 @@ export async function generateStaticParams() {
 
 const WatchPage = ({ params }) => {
   const { slug } = params;
+  const video = videos.find(item => item.slug === slug);
 
   return (
-    <VideoPage slug={slug} />
-
+    <VideoPage video={video} />
   );
 }
 
