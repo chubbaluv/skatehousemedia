@@ -26,10 +26,10 @@ export default function Home() {
           height={250}
         />
       </LogoWrapper>
-      <Link href='/watch/test-video'>
+      <Link href='/watch/test-video-1'>
         <NavigationItem variant='4'>The Archive</NavigationItem>
       </Link>
-      <Link href='/watch/test-video'>
+      <Link href='/watch/test-video-2'>
         <NavigationItem variant='4'>Shuffle</NavigationItem>
       </Link>
     </PageWrapper>
