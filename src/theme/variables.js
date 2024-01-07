@@ -60,3 +60,7 @@ export const basePadding = {
   xxxxLarge: '56px',
   max: '64px',
 };
+
+export const transition = {
+  default: 'all 300ms ease',
+}

@@ -1,3 +1,4 @@
+import VideoPage from "#/components/VideoPage";
 import videos from "../../../../data/mockdata"
 
 export async function generateStaticParams() {
@@ -5,16 +6,13 @@ export async function generateStaticParams() {
   return videos;
 }
 
-const VideoPage = ({ params }) => {
+const WatchPage = ({ params }) => {
   const { slug } = params;
 
   return (
-    <h1>
-      {slug}
-    </h1>
+    <VideoPage slug={slug} />
+
   );
 }
 
-
-
-export default VideoPage;
+export default WatchPage;
