@@ -26,7 +26,7 @@ export default function Home() {
           height={250}
         />
       </LogoWrapper>
-      <Link href='/watch/test-video-1'>
+      <Link href='/archive'>
         <NavigationItem variant='4'>The Archive</NavigationItem>
       </Link>
       <Link href='/watch/test-video-2'>

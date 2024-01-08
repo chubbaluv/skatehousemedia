@@ -1,25 +1,6 @@
 'use client'
-import { baseColors, basePadding, transition } from "#/theme";
 import styled from "styled-components";
-
-export const BackButtonWrapper = styled.div`
-  background: ${baseColors.black};
-  margin-block-end: ${basePadding.xxxLarge};
-  padding: ${basePadding.large} ${basePadding.large};
-  width: 100%;
-
-  & > button {
-    background: none;
-    border: none;
-    border-bottom: 2px solid transparent;
-    cursor: pointer;
-    transition: ${transition.default};
-
-    &:hover {
-      border-bottom: 2px solid ${baseColors.white};
-    }
-  }
-`;
+import { basePadding } from "#/theme";
 
 export const VideoWrapper = styled.div`
   align-items: center;

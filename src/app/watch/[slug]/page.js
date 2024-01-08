@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   return videos;
 }
 
-const WatchPage = ({ params }) => {
+const Watch = ({ params }) => {
   const { slug } = params;
   const video = videos.find(item => item.slug === slug);
 
@@ -15,4 +15,4 @@ const WatchPage = ({ params }) => {
   );
 }
 
-export default WatchPage;
+export default Watch;
