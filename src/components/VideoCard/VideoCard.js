@@ -1,10 +1,20 @@
+import Link from "next/link";
+import { CardWrapper, Thumbnail, TitleWrapper } from "./VideoCardStyled";
+import { Subhead } from "../Typography/Typography";
 
-
-const VideoCard = ({ src, thumbnail, title }) => {
+const VideoCard = ({ slug, thumbnail, title }) => {
 
   return (
-    <div>OOOPS</div>
-
+    <Link href={`watch/${slug}`}>
+      <CardWrapper>
+        <Thumbnail $backgroundImage={thumbnail} />
+        <TitleWrapper>
+          <Subhead variant='3'>
+            {title}
+          </Subhead>
+        </TitleWrapper>
+      </CardWrapper>
+    </Link>
   );
 };
 

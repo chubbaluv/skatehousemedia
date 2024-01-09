@@ -2,6 +2,12 @@ export const baseColors = {
   black: '#000000',
   white: '#ffffff',
   shmBlack: '#252525',
+
+  gray1: '#333',
+  gray2: '#444',
+  gray3: '#666',
+  gray4: '#888',
+  gray5: '#999',
 };
 
 export const breakpoints = {

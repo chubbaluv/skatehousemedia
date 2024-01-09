@@ -1,6 +1,6 @@
 'use client'
 import { TitleWrapper, VideoWrapper } from "./VideoPageStyled";
-import { Headline, Subhead } from "#/components/Typography/Typography";
+import { Headline } from "#/components/Typography/Typography";
 import BackButtonBar from "../BackButtonBar";
 
 const VideoPage = ({ video }) => {

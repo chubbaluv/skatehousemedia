@@ -2,7 +2,6 @@
 import styled, { css } from 'styled-components';
 import {
   baseColors,
-  fonts,
   fontSizing,
   fontWeights,
   lineHeights,
