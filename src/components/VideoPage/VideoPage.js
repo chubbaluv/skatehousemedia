@@ -1,7 +1,8 @@
 'use client'
-import { TitleWrapper, VideoWrapper } from "./VideoPageStyled";
+import { TitleWrapper } from "./VideoPageStyled";
 import { Headline } from "#/components/Typography/Typography";
 import BackButtonBar from "../BackButtonBar";
+import VideoPlayer from "../VideoPlayer";
 
 const VideoPage = ({ video }) => {
   const { src, thumbnail, title } = video;
@@ -14,17 +15,11 @@ const VideoPage = ({ video }) => {
           {title}
         </Headline>
       </TitleWrapper>
-      <VideoWrapper>
-        <video
-          controls
-          poster={thumbnail}
-          src={src}
-          type='video/mp4'
-        />
-      </VideoWrapper>
-
+      <VideoPlayer
+        thumbnail={thumbnail}
+        src={src}
+      />
     </>
-
   );
 };
 

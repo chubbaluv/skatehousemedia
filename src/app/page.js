@@ -29,7 +29,7 @@ export default function Home() {
       <Link href='/archive'>
         <NavigationItem variant='4'>The Archive</NavigationItem>
       </Link>
-      <Link href='/watch/test-video-2'>
+      <Link href='/shuffle'>
         <NavigationItem variant='4'>Shuffle</NavigationItem>
       </Link>
     </PageWrapper>
