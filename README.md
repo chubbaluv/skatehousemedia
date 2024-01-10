@@ -1,7 +1,9 @@
 ## TO-DO List
 Setup some quality of life stuff
-Build everything
-Setup a GH action that builds and syncs distro folder to S3
+Figure out where the hell to store these videos
+Create any meta data needed for the videos
+Deploy everything
+Add some GA actions for continuous deployment when we merge to the default branch
 
 ## General Architecture
 
