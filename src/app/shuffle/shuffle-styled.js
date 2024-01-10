@@ -12,6 +12,11 @@ export const PageWrapper = styled.main`
 `;
 
 export const TitleWrapper = styled.div`
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
+  grid-column-gap: ${basePadding.base};
+  margin-block-start: ${basePadding.large};
   max-width: 700px;
   width: 100%;
 `;

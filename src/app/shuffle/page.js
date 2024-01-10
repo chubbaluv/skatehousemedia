@@ -12,6 +12,7 @@ import { BodyText, Headline, Subhead } from "#/components/Typography/Typography"
 import { basePadding } from "#/theme";
 import BackButtonBar from "#/components/BackButtonBar";
 import VideoPlayer from "#/components/VideoPlayer";
+import Button from "#/components/Button";
 
 const Shuffle = () => {
 
@@ -58,14 +59,17 @@ const Shuffle = () => {
           thumbnail={currentVideo?.thumbnail}
         />
         <TitleWrapper>
-          <Subhead
-            margin={`${basePadding.large} 0 0 0`}
-            variant='2'
-          >
+          <Subhead variant='2'>
             {currentVideo?.title}
           </Subhead>
-          <button onClick={() => handleNextClick()}>skip</button>
-          <button onClick={() => shuffleVideos()}>shuffle</button>
+          <>
+            <Button handleClick={() => handleNextClick()}>
+              <Subhead variant='4'>Skip</Subhead>
+            </Button>
+            <Button handleClick={() => shuffleVideos()}>
+              <Subhead variant='4'>Shuffle</Subhead>
+            </Button>
+          </>
         </TitleWrapper>
         <VideoList>
           {
