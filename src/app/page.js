@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { PageWrapper, LogoWrapper } from './home-styled';
 import { Headline } from '#/components/Typography/Typography';
 import { baseColors, basePadding, transition } from '#/theme';
+import { ShmLogo } from '#/components/enhancedSvg/svgs';
 
 const NavigationItem = styled(Headline)`
   border-bottom: 5px solid transparent;
@@ -19,12 +20,7 @@ export default function Home() {
   return (
     <PageWrapper>
       <LogoWrapper>
-        <img
-          src="/SkatehouseLogo3000x2500.jpeg"
-          alt="SHM Logo"
-          width={300}
-          height={250}
-        />
+        <ShmLogo customWidth={500} />
       </LogoWrapper>
       <Headline margin='50px 0 0 0' variant='4'>Coming Soon</Headline>
       {/* <Link href='/archive'>

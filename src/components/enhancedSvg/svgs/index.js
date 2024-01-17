@@ -1,0 +1,1 @@
+export { default as ShmLogo } from './ShmLogo';
