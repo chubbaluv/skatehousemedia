@@ -26,12 +26,13 @@ export default function Home() {
           height={250}
         />
       </LogoWrapper>
-      <Link href='/archive'>
+      <Headline margin='50px 0 0 0' variant='4'>Coming Soon</Headline>
+      {/* <Link href='/archive'>
         <NavigationItem variant='4'>The Archive</NavigationItem>
       </Link>
       <Link href='/shuffle'>
         <NavigationItem variant='4'>Shuffle</NavigationItem>
-      </Link>
+      </Link> */}
     </PageWrapper>
   )
 }
