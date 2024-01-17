@@ -1,4 +1,5 @@
 import './globals.css'
+import StyledComponentsRegistry from './registry'
 
 export const metadata = {
   title: 'SkateHouseMedia',
@@ -8,7 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <StyledComponentsRegistry>
+          {children}
+        </StyledComponentsRegistry>
+      </body>
     </html>
   )
 }
