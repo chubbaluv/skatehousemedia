@@ -7,6 +7,7 @@ const VideoPlayer = ({ src, thumbnail }) => {
     <VideoWrapper>
       <video
         controls
+        preload='none'
         poster={thumbnail}
         src={src}
         type='video/mp4'

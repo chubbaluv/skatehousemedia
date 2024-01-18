@@ -1,6 +1,7 @@
 'use client'
 import styled from "styled-components";
 import { basePadding } from "#/theme";
+import { BodyText } from "#/components/Typography/Typography";
 
 export const PageWrapper = styled.main`
   display: flex;
@@ -12,4 +13,12 @@ export const PageWrapper = styled.main`
 `;
 
 export const LogoWrapper = styled.div`
+  max-width: calc(100% - 60px);
+`;
+
+export const TipMe = styled(BodyText)`
+  margin-block-start: ${basePadding.xxLarge};
+  margin-inline: auto;
+  max-width: 650px;
+  width: 100%;
 `;
