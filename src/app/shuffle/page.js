@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
-import videos from "../../../data/mockdata";
+import videos from "../../../data/videoData";
 import {
   EntryThumbnail,
   ListEntry,

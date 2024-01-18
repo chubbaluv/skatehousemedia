@@ -8,10 +8,15 @@ export const CardWrapper = styled.div`
   overflow: hidden;
 `;
 
-export const Thumbnail = styled.div`
+export const ImageWrapper = styled.div`
   aspect-ratio: 16 / 9;
-  background: ${({ $backgroundImage }) => `no-repeat center / cover url(${$backgroundImage})`};
+  overflow: hidden;
   width: 100%;
+
+  & img {
+    height: auto;
+    width: 100%;
+  }
 `;
 
 export const TitleWrapper = styled.div`

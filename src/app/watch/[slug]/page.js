@@ -1,5 +1,5 @@
 import VideoPage from "#/components/VideoPage";
-import videos from "../../../../data/mockdata"
+import videos from "../../../../data/videoData"
 
 export async function generateStaticParams() {
   // const videos = await fetch('https://.../videos').then((res) => res.json())

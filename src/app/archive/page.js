@@ -1,9 +1,10 @@
 'use client'
-import videos from "../../../data/mockdata";
+import videos from "../../../data/videoData";
 import { Grid, PageWrapper } from "./archive-styled";
 import { Headline } from "#/components/Typography/Typography";
 import BackButtonBar from "#/components/BackButtonBar";
 import VideoCard from "#/components/VideoCard";
+import LazyWrapper from "#/components/LazyWrapper/LazyWrapper";
 import { basePadding } from "#/theme";
 
 const Archive = () => {
@@ -25,12 +26,14 @@ const Archive = () => {
               videos.map((video, index) => {
                 const { slug, thumbnail, title } = video;
                 return (
-                  <VideoCard
-                    key={index}
-                    slug={slug}
-                    thumbnail={thumbnail}
-                    title={title}
-                  />
+                  <LazyWrapper lazyLoad={index > 9} offset={0} height={0}>
+                    <VideoCard
+                      key={index}
+                      slug={slug}
+                      thumbnail={thumbnail}
+                      title={title}
+                    />
+                  </LazyWrapper>
                 );
               })
             }
