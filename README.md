@@ -1,17 +1,16 @@
 ## TO-DO List
 Setup some quality of life stuff
-Figure out where the hell to store these videos
-Create any meta data needed for the videos
-Deploy everything
-Add some GA actions for continuous deployment when we merge to the default branch
+Implement Search
+Finish shuffle
+Maybe start adding facet data to videos???
 
 ## General Architecture
 
-This archive site is powered by NextJS static builds. Build files are deployed to an S3 bucket via GitHub actions when PRs or changes are pushed to main.
+This archive site is a combination of NextJS SSR (static build), Vercel (Frontend cloud), and Cloudflare (R2 bucket for assets, other CF perks.)
 
+Vercel and CF are both on hobby/free tier plans. I pay usage billing on the R2 bucket and will always be looking for ways to keep that cost down.
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
