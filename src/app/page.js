@@ -1,8 +1,8 @@
 'use client'
 import Link from 'next/link';
 import styled from 'styled-components';
-import { LogoWrapper, PageWrapper, TipMe } from './home-styled';
-import { Headline, BodyText } from '#/components/Typography/Typography';
+import { IntroParagraph, LogoWrapper, PageWrapper, TipMe } from './home-styled';
+import { Headline } from '#/components/Typography/Typography';
 import { baseColors, basePadding, transition } from '#/theme';
 import { ShmLogo } from '#/components/enhancedSvg/svgs';
 
@@ -30,7 +30,10 @@ export default function Home() {
       {/* <Link href='/shuffle'>
         <NavigationItem variant='4'>Shuffle</NavigationItem>
       </Link> */}
-      <TipMe textAlignment='center' variant='6'>
+      <IntroParagraph textAlignment='center' variant='6'>
+        {`Howdy y'all. We're bringing it back (kind of). We're standing up the archive of all of the preserved SkateHouseMedia in the most cost effective way possible (pray for us). Right now "we" is just one person, so bear with me as I process all of these old videos. Once I've finished standing up the archive (I'm about an 1/8th of the way done) I plan on adding some additional features like search, shuffle, and taxonomies for filtering. Thanks for the patience.`}
+      </IntroParagraph>
+      <TipMe italic={true} textAlignment='center' variant='6'>
         Just a friendly reminder that every time you watch a video here, my credit card is getting charged some amount of money. Not to mention the time sink... If you feel so inclined, consider buying me a coffee. My venmo is @chubbaluv
       </TipMe>
     </PageWrapper>
