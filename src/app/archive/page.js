@@ -18,7 +18,7 @@ const Archive = () => {
           margin={`0 auto ${basePadding.xLarge} auto`}
           variant='3'
         >
-          The Archive
+          Archive
         </Headline>
         {(videos && videos.length > 0) &&
           <Grid>

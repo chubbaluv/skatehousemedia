@@ -2,6 +2,7 @@
 import styled, { css } from 'styled-components';
 import {
   baseColors,
+  breakpoints,
   fontSizing,
   fontWeights,
   lineHeights,
@@ -148,11 +149,19 @@ export const Headline3 = styled.h3`
   ${propStyles}
   ${headlineStyles}
   font-size: ${({ $sizeOveride }) => ($sizeOveride ? $sizeOveride : fontSizing.xxxLarge)};
+
+  @media (max-width: ${breakpoints.medium}) {
+    font-size: ${({ $sizeOveride }) => ($sizeOveride ? $sizeOveride : fontSizing.xxLarge)};
+  }
 `;
 export const Headline4 = styled.h4`
   ${propStyles}
   ${headlineStyles}
   font-size: ${({ $sizeOveride }) => ($sizeOveride ? $sizeOveride : fontSizing.xxLarge)};
+
+  @media (max-width: ${breakpoints.medium}) {
+    font-size: ${({ $sizeOveride }) => ($sizeOveride ? $sizeOveride : fontSizing.xLarge)};
+  }
 `;
 export const Headline5 = styled.h5`
   ${propStyles}
