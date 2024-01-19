@@ -7,12 +7,14 @@ import { baseColors, basePadding, transition } from '#/theme';
 import { ShmLogo } from '#/components/enhancedSvg/svgs';
 
 const NavigationItem = styled(Headline)`
-  border-bottom: 5px solid transparent;
+  color: ${baseColors.white};
+  border-bottom: 5px solid ${baseColors.white};
   margin: ${basePadding.large} 0 0 0;
   transition: ${transition.default};
 
   &:hover {
-    border-bottom: 5px solid ${baseColors.white};
+    color: ${baseColors.gray4};
+    border-bottom: 5px solid ${baseColors.gray4};
   }
 `;
 
