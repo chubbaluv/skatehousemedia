@@ -17,7 +17,8 @@ export const LogoWrapper = styled.div`
 `;
 
 export const IntroParagraph = styled(BodyText)`
-  margin-block-start: ${basePadding.xxLarge};
+  margin-block-start: ${basePadding.xxxxLarge};
+  margin-block-end: ${basePadding.base};
   margin-inline: auto;
   max-width: 650px;
   width: 100%;
@@ -26,6 +27,6 @@ export const IntroParagraph = styled(BodyText)`
 export const TipMe = styled(BodyText)`
   margin-block-start: ${basePadding.xxxxLarge};
   margin-inline: auto;
-  max-width: 650px;
+  max-width: 700px;
   width: 100%;
 `;
