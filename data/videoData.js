@@ -139,7 +139,7 @@ const videos = [
     },
     {
         slug: 'anaconda',
-        src: 'https://assets.skatehousemedia.com/XXAnacondaXXXXXX.mp4',
+        src: 'https://assets.skatehousemedia.com/Anaconda.mp4',
         thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Anaconda.jpg',
         title: 'Anaconda???',
     },
@@ -226,12 +226,6 @@ const videos = [
         src: 'https://assets.skatehousemedia.com/Backyard-Blues.mp4',
         thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Backyard-Blues.jpg',
         title: 'Backyard Blues',
-    },
-    {
-        slug: 'XXXXXXX',
-        src: 'https://assets.skatehousemedia.com/XXXXXXXXXX.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/XXXXXXXXX.jpg',
-        title: 'XXXXXXX',
     },
     {
         slug: 'barna-bacon-slide-jam',
