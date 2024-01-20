@@ -1,6 +1,5 @@
 ## TO-DO List
-Setup some quality of life stuff
-Implement Search
+Add Husky and pre-commit rules
 Finish shuffle
 Maybe start adding facet data to videos???
 

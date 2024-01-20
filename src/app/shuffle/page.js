@@ -15,6 +15,10 @@ import VideoPlayer from "#/components/VideoPlayer";
 import Button from "#/components/Button";
 
 const Shuffle = () => {
+  // TO-DO:
+  // - We need to add a callback function for the ended event to start the next video https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event
+  // - Remove the video list below the shuffler in exchange for a simple "Up Next" card. On-click should just start the next video.
+  // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback. Very annoying, but this will prevent a run on resources if someone accidentally leaves shuffle playing."
 
   const [currentIndex, setCurentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
