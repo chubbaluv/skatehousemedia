@@ -82,7 +82,7 @@ const Shuffle = () => {
               const { thumbnail, title } = video;
               return index > currentIndex ? (
                 <ListEntry
-                  key={slug}
+                  key={title}
                 >
                   <EntryThumbnail $backgroundImage={thumbnail} />
                   <Subhead variant='3'>{title}</Subhead>
