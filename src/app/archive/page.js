@@ -26,9 +26,8 @@ const Archive = () => {
               videos.map((video, index) => {
                 const { slug, thumbnail, title } = video;
                 return (
-                  <LazyWrapper lazyLoad={index > 9} offset={0} height={0}>
+                  <LazyWrapper lazyLoad={index > 9} offset={0} height={0} key={title}>
                     <VideoCard
-                      key={index}
                       slug={slug}
                       thumbnail={thumbnail}
                       title={title}

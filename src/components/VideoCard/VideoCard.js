@@ -8,7 +8,7 @@ const VideoCard = ({ slug, thumbnail, title }) => {
     <Link href={`watch/${slug}`}>
       <CardWrapper>
         <ImageWrapper>
-          <img loading="lazy" src={thumbnail} />
+          <img alt={title} loading="lazy" src={thumbnail} />
         </ImageWrapper>
         <TitleWrapper>
           <Subhead variant='3'>
