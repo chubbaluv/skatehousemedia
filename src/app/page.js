@@ -37,7 +37,7 @@ export default function Home() {
         <VenomLogo customWidth={300} />
       </LogoWrapper>
       <TipMe italic={true} textAlignment='center' variant='6'>
-        {`Howdy y'all. We're bringing it back (kind of). We're standing up the archive of all of the preserved SkateHouseMedia in the most cost effective way possible (pray for us). Right now "we" is just one person, so bear with me as I process all of these old videos. Once I've finished standing up the archive (I'm about an 1/8th of the way done) I plan on adding some additional features like search, shuffle, and taxonomies for filtering. Thanks for the patience. (And if you want to buy ne coffee for doing this, my venmo is @chubbaluv)`}
+        {`Howdy y'all. We're bringing it back (kind of). We're standing up the archive of all of the preserved SkateHouseMedia files in the most cost effective way possible (pray for us). Right now it's just a couple of us working on this, so thanks for being patient as we process all this content and add new features. (And if you want to buy us a coffee for doing this, my venmo is @chubbaluv)`}
       </TipMe>
     </PageWrapper>
   )
