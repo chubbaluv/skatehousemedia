@@ -830,55 +830,55 @@ const videos = [
     {
         slug: 'ekstremsportveko-saturday',
         src: 'https://assets.skatehousemedia.com/Ekstremsportveko-Saturday.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Ekstremsportveko-Saturday.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Ekstremsportveko-Saturday.jpg',
         title: 'Ekstremsportveko Saturday'
     },
     {
         slug: 'el-gringo-negro',
         src: 'https://assets.skatehousemedia.com/El-Gringo-Negro.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/El-Gringo-Negro.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/El-Gringo-Negro.jpg',
         title: 'El Gringo Negro'
     },
     {
         slug: 'el-salvador',
         src: 'https://assets.skatehousemedia.com/El-Salvador.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/El-Salvador.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/El-Salvador.jpg',
         title: 'El Salvador'
     },
     {
         slug: 'emma-daigle-at-knk',
         src: 'https://assets.skatehousemedia.com/Emma-Daigle-at-KNK.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Emma-Daigle-at-KNK.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Emma-Daigle-at-KNK.jpg',
         title: 'Emma Daigle at KNK'
     },
     {
         slug: 'euro-road-trip-with-danny-carlson',
         src: 'https://assets.skatehousemedia.com/Euro-Road-Trip-with-Danny-Carlson.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Road-Trip-with-Danny-Carlson.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Road-Trip-with-Danny-Carlson.jpg',
         title: 'Euro Road Trip with Danny Carlson'
     },
     {
         slug: 'euro-tour-2012-part-2-special-place',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-2012-Part-2-Special-Place.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-2-Special-Place.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-2-Special-Place.jpg',
         title: 'Euro Tour 2012 Part 2: Special Place'
     },
     {
         slug: 'euro-tour-2012-part-3-igsa-padova',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-2012-Part-3-IGSA-Padova.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-3-IGSA-Padova.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-3-IGSA-Padova.jpg',
         title: 'Euro TOur 2012 Part 3: IGSA Padova'
     },
     {
         slug: 'euro-tour-2012-part-3-land-boat-special',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-2012-Part-3-Land-Boat-Special.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-3-Land-Boat-Special.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-3-Land-Boat-Special.jpg',
         title: 'Euro Tour 2012 Part 4: Land Boat Special'
     },
     {
         slug: 'euro-tour-2012-part-5-session-with-the-s9-italy-crew',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-2012-Part-5-Session-with-the-S9-Italy-Crew.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-5-Session-with-the-S9-Italy-Crew.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-2012-Part-5-Session-with-the-S9-Italy-Crew.jpg',
         title: 'Euro Tour 2012 Part 4: Session with the S9 Italy Crew'
     },
     {
@@ -890,247 +890,241 @@ const videos = [
     {
         slug: 'euro-tour-part-2-voss-downhill-championship',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-Part-2-Voss-Downhill-Championship.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-2-Voss-Downhill-Championship.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-2-Voss-Downhill-Championship.jpg',
         title: 'Euro Tour Part 2: Voss Downhill Championship'
     },
     {
         slug: 'euro-tour-part-3',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-Part-3.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-3.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-3.jpg',
         title: 'Euro Tour Part 3'
     },
     {
         slug: 'euro-tour-part-4-sweden',
         src: 'https://assets.skatehousemedia.com/Euro-Tour-Part-4-Sweden.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-4-Sweden.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Euro-Tour-Part-4-Sweden.jpg',
         title: 'Euro Tour Part 4: Sweden'
     },
     {
         slug: 'event-2012-mt-kiera-dh-challenge',
         src: 'https://assets.skatehousemedia.com/Event-2012-Mt-Kiera-DH-Challenge.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-2012-Mt-Kiera-DH-Challenge.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-2012-Mt-Kiera-DH-Challenge.jpg',
         title: 'Event: Mt Kiera DH Challenge 2012'
     },
     {
         slug: 'event-coast-slide-jam',
         src: 'https://assets.skatehousemedia.com/Event-Coast-Slide-Jam.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coast-Slide-Jam.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coast-Slide-Jam.jpg',
         title: 'Event: Coast Slide Jam'
     },
     {
         slug: 'event-collingrove-cup',
         src: 'https://assets.skatehousemedia.com/Event-Collingrove-Cup.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Collingrove-Cup.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Collingrove-Cup.jpg',
         title: 'Event: Collingrove Cup'
-    },
-    {
-        slug: 'event-coverage-barrett-junction-2017',
-        src: 'https://assets.skatehousemedia.com/Event-Coverage-Barrett-Junction-2017.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Barrett-Junction-2017.mp4',
-        title: 'Event: Barrett Junction 2017'
     },
     {
         slug: 'event-coverage-britannia-classic-open-final',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Britannia-Classic-Open-Final.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Britannia-Classic-Open-Final.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Britannia-Classic-Open-Final.jpg',
         title: 'Event: Britannia Classic Open Final'
     },
     {
         slug: 'event-coverage-buffalo-bill',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Buffalo-Bill.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Buffalo-Bill.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Buffalo-Bill.jpg',
         title: 'Event: Buffalo Bill'
     },
     {
         slug: 'event-coverage-el-bueno-freeride-2017',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-El-Bueno-Freeride-2017.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-El-Bueno-Freeride-2017.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-El-Bueno-Freeride-2017.jpg',
         title: 'Event: El Bueno Freeride 2017'
     },
     {
         slug: 'event-coverage-first-round-peyragudes',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-First-Round-Peyragudes.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-First-Round-Peyragudes.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-First-Round-Peyragudes.jpg',
         title: 'Event: Peyragudes First Round'
     },
     {
         slug: 'event-coverage-muir-skates-downhill-disco',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Muir-Skates-Downhill-Disco.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Muir-Skates-Downhill-Disco.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Muir-Skates-Downhill-Disco.jpg',
         title: 'Event: Muir Skate Downhill Disco'
     },
     {
         slug: 'event-coverage-skate-sun-peaks',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Skate-Sun-Peaks.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Skate-Sun-Peaks.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Skate-Sun-Peaks.jpg',
         title: 'Event: Skate Sun Peaks'
     },
     {
         slug: 'event-coverage-switchbacks',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Switchbacks.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Switchbacks.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Switchbacks.jpg',
         title: 'Event: Switchbacks'
     },
     {
         slug: 'event-coverage-titaweekend',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Titaweekend.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Titaweekend.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Titaweekend.jpg',
         title: 'Event: Titaweekend'
     },
     {
         slug: 'event-coverage-wham-bam-666',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Wham-Bam-666.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Wham-Bam-666.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Wham-Bam-666.jpg',
         title: 'Event: Wham Bam 666'
     },
     {
         slug: 'event-coverage-wham-bam-slide-jam-4',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Wham-Bam-Slide-Jam-4.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Wham-Bam-Slide-Jam-4.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Wham-Bam-Slide-Jam-4.jpg',
         title: 'Event: Wham Bam 4'
     },
     {
         slug: 'event-coverage-whistler-quarter-final-heats',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-Whistler-Quarter-Final-Heats.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Whistler-Quarter-Final-Heats.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-Whistler-Quarter-Final-Heats.jpg',
         title: 'Event: Whistler Quarter Final Heats'
     },
     {
         slug: 'event-coverage-ww3-womens-final',
         src: 'https://assets.skatehousemedia.com/Event-Coverage-WW3-Womens-FInal.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-WW3-Womens-FInal.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Coverage-WW3-Womens-FInal.jpg',
         title: 'Event: WW3 Womens Final'
     },
     {
         slug: 'event-giants-head-freeride-2015',
         src: 'https://assets.skatehousemedia.com/Event-Giants-Head-Freeride-2015.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Freeride-2015.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Freeride-2015.jpg',
         title: 'Event: Giants Head Freeride 2015'
     },
     {
         slug: 'event-giants-head-freeride-dayz',
         src: 'https://assets.skatehousemedia.com/Event-Giants-Head-Freeride-Dayz.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Freeride-Dayz.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Freeride-Dayz.jpg',
         title: 'Event: Giants Head Freeride Dayz'
     },
     {
         slug: 'event-giants-head-teaser',
         src: 'https://assets.skatehousemedia.com/Event-Giants-Head-Teaser.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Teaser.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Giants-Head-Teaser.jpg',
         title: 'Event: Giants Head Teaser'
     },
     {
         slug: 'event-igsa-winsport-final-run',
         src: 'https://assets.skatehousemedia.com/Event-IGSA-WinSport-Final-Run.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-IGSA-WinSport-Final-Run.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-IGSA-WinSport-Final-Run.jpg',
         title: 'Event: IGSA Winsport Final'
     },
     {
         slug: 'event-kewlona-skylands-2012',
         src: 'https://assets.skatehousemedia.com/Event-Kewlona-Skylands-2012.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Kewlona-Skylands-2012.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Kewlona-Skylands-2012.jpg',
         title: 'Event: Kelowna Skylands 2012'
     },
     {
         slug: 'event-santa-barbara-slide-jam-2010',
         src: 'https://assets.skatehousemedia.com/Event-Santa-Barbara-Slide-Jam-2010.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Santa-Barbara-Slide-Jam-2010.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Santa-Barbara-Slide-Jam-2010.jpg',
         title: 'Event: Santa Barbara Slide Jam 2010'
     },
     {
         slug: 'event-spring-maryhill-freeride-2011',
         src: 'https://assets.skatehousemedia.com/Event-Spring-Maryhill-Freeride-2011.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Spring-Maryhill-Freeride-2011.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Spring-Maryhill-Freeride-2011.jpg',
         title: 'Event: Maryhill Freeride 2011'
     },
     {
         slug: 'event-the-scorcher',
         src: 'https://assets.skatehousemedia.com/Event-The-Scorcher.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-The-Scorcher.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-The-Scorcher.jpg',
         title: 'Event: The Scorcher'
     },
     {
         slug: 'event-wild-wild-west',
         src: 'https://assets.skatehousemedia.com/Event-Wild-Wild-West.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Wild-Wild-West.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Event-Wild-Wild-West.jpg',
         title: 'Event: Wild Wild West'
     },
     {
         slug: 'events-atomic-bomb',
         src: 'https://assets.skatehousemedia.com/Events-Atomic-Bomb.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Atomic-Bomb.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Atomic-Bomb.jpg',
         title: 'Event: Atomic bomb'
     },
     {
         slug: 'events-barrett-junction-outlaw-2010',
         src: 'https://assets.skatehousemedia.com/Events-Barrett-Junction-Outlaw-2010.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Barrett-Junction-Outlaw-2010.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Barrett-Junction-Outlaw-2010.jpg',
         title: 'Event: Barrett Junction Outlaw 2010'
     },
     {
         slug: 'events-britannia-classic-freeride',
         src: 'https://assets.skatehousemedia.com/Events-Britannia-Classic-Freeride.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Britannia-Classic-Freeride.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Britannia-Classic-Freeride.jpg',
         title: 'Event: Britannia Classic Freeride'
     },
     {
         slug: 'events-comet-ridge-slopestyle',
         src: 'https://assets.skatehousemedia.com/Events-Comet-Ridge-Slopestyle.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Comet-Ridge-Slopestyle.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Comet-Ridge-Slopestyle.jpg',
         title: 'Event: Comet Ridge Slopestyle'
     },
     {
         slug: 'events-dh-throwdown',
         src: 'https://assets.skatehousemedia.com/Events-DH-Throwdown.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-DH-Throwdown.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-DH-Throwdown.jpg',
         title: 'Event: DH Throwdown'
     },
     {
         slug: 'events-downhill-disco',
         src: 'https://assets.skatehousemedia.com/Events-Downhill-Disco.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Downhill-Disco.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Downhill-Disco.jpg',
         title: 'Event: Downhill Disco'
     },
     {
         slug: 'events-dump-road-outlaw',
         src: 'https://assets.skatehousemedia.com/Events-Dump-Road-Outlaw.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Dump-Road-Outlaw.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Dump-Road-Outlaw.jpg',
         title: 'Event: Dump Road Outlaw'
     },
     {
         slug: 'events-hawaii-death-slalom',
         src: 'https://assets.skatehousemedia.com/Events-Hawaii-Death-Slalom.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Hawaii-Death-Slalom.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Hawaii-Death-Slalom.jpg',
         title: 'Event: Hawaii Death Slalom'
     },
     {
         slug: 'events-kelowna-skylands-2011',
         src: 'https://assets.skatehousemedia.com/Events-Kelowna-Skylands-2011.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Kelowna-Skylands-2011.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Kelowna-Skylands-2011.jpg',
         title: 'Event: Kelowna Skylands 2011'
     },
     {
         slug: 'events-kozakov-2012',
         src: 'https://assets.skatehousemedia.com/Events-Kozakov-2012.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Kozakov-2012.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Kozakov-2012.jpg',
         title: 'Event: Kozakov 2012'
     },
     {
         slug: 'events-maryhill-freeride-raw-run',
         src: 'https://assets.skatehousemedia.com/Events-Maryhill-Freeride-Raw-Run.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Maryhill-Freeride-Raw-Run.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Maryhill-Freeride-Raw-Run.jpg',
         title: 'Event: Maryhill Freeride Raw Run'
     },
     {
         slug: 'events-san-pedro-shred',
         src: 'https://assets.skatehousemedia.com/Events-San-Pedro-Shred.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-San-Pedro-Shred.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-San-Pedro-Shred.jpg',
         title: 'Event: San Pedro Shred'
     },
     {
         slug: 'events-vernon-dh-2011',
         src: 'https://assets.skatehousemedia.com/Events-Vernon-DH-2011.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Vernon-DH-2011.mp4',
+        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/Events-Vernon-DH-2011.jpg',
         title: 'Event: Vernon DH 2011'
     },
     {
