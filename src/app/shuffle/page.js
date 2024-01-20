@@ -20,7 +20,7 @@ const Shuffle = () => {
   // - Remove the video list below the shuffler in exchange for a simple "Up Next" card. On-click should just start the next video.
   // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback. Very annoying, but this will prevent a run on resources if someone accidentally leaves shuffle playing."
 
-  const [currentIndex, setCurentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
 
@@ -34,10 +34,10 @@ const Shuffle = () => {
     }
 
     setShuffledList(newShuffle);
-    setCurentIndex(0);
+    setCurrentIndex(0);
   };
 
-  const handleNextClick = () => setCurentIndex(currentIndex + 1);
+  const handleNextClick = () => setCurrentIndex(currentIndex + 1);
 
   useEffect(() => {
     shuffleVideos();
@@ -81,7 +81,7 @@ const Shuffle = () => {
               const { slug, thumbnail, title } = video;
               return index > currentIndex ? (
                 <ListEntry
-                  key={index}
+                  key={slug}
                 >
                   <EntryThumbnail $backgroundImage={thumbnail} />
                   <Subhead variant='3'>{title}</Subhead>
