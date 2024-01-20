@@ -1,4 +1,5 @@
 'use client'
+import React, { useState } from 'react';
 import videos from "../../../data/videoData";
 import { Grid, PageWrapper } from "./archive-styled";
 import { Headline } from "#/components/Typography/Typography";
@@ -6,8 +7,24 @@ import BackButtonBar from "#/components/BackButtonBar";
 import VideoCard from "#/components/VideoCard";
 import LazyWrapper from "#/components/LazyWrapper/LazyWrapper";
 import { basePadding } from "#/theme";
+import SearchBar from '#/components/SearchBar/SearchBar';
 
 const Archive = () => {
+  const [searchInput, setSearchInput] = useState('');
+  const [filteredVideos, setFilteredVideos] = useState(videos);
+
+  const handleSearch = (e) => {
+    const searchTerm = e.target.value;
+    setSearchInput(searchTerm);
+    filterVideos(searchTerm);
+  };
+
+  const filterVideos = (searchTerm) => {
+    const filtered = videos.filter(video =>
+      video.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredVideos(filtered);
+  };
 
   return (
     <>
@@ -20,10 +37,14 @@ const Archive = () => {
         >
           Archive
         </Headline>
-        {(videos && videos.length > 0) &&
+        <SearchBar
+          value={searchInput}
+          onChange={handleSearch}
+        />
+        {(filteredVideos && filteredVideos.length > 0) &&
           <Grid>
             {
-              videos.map((video, index) => {
+              filteredVideos.map((video, index) => {
                 const { slug, thumbnail, title } = video;
                 return (
                   <LazyWrapper lazyLoad={index > 9} offset={0} height={0} key={title}>
