@@ -1,7 +1,7 @@
 'use client'
 import styled from "styled-components";
-import { basePadding } from "#/theme";
-import { BodyText } from "#/components/Typography/Typography";
+import { baseColors, basePadding, transition } from "#/theme";
+import { Headline, BodyText } from "#/components/Typography/Typography";
 
 export const PageWrapper = styled.main`
   display: flex;
@@ -14,6 +14,18 @@ export const PageWrapper = styled.main`
 
 export const LogoWrapper = styled.div`
   max-width: calc(100% - 60px);
+`;
+
+export const NavigationItem = styled(Headline)`
+  color: ${baseColors.white};
+  border-bottom: 5px solid ${baseColors.white};
+  margin: ${basePadding.large} 0 0 0;
+  transition: ${transition.default};
+
+  &:hover {
+    color: ${baseColors.gray4};
+    border-bottom: 5px solid ${baseColors.gray4};
+  }
 `;
 
 export const IntroParagraph = styled(BodyText)`

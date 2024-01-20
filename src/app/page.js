@@ -1,29 +1,15 @@
 'use client'
 import Link from 'next/link';
-import styled from 'styled-components';
 import {
   IntroParagraph,
   LogoWrapper,
+  NavigationItem,
   PageWrapper,
   SponsorLogo,
   SponsorWrapper,
   TipMe
 } from './home-styled';
-import { Headline } from '#/components/Typography/Typography';
-import { baseColors, basePadding, transition } from '#/theme';
 import { MidsLogo, ShmLogo, VenomLogo } from '#/components/enhancedSvg/svgs';
-
-const NavigationItem = styled(Headline)`
-  color: ${baseColors.white};
-  border-bottom: 5px solid ${baseColors.white};
-  margin: ${basePadding.large} 0 0 0;
-  transition: ${transition.default};
-
-  &:hover {
-    color: ${baseColors.gray4};
-    border-bottom: 5px solid ${baseColors.gray4};
-  }
-`;
 
 export default function Home() {
   return (
