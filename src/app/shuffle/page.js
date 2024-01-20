@@ -41,6 +41,7 @@ const Shuffle = () => {
 
   useEffect(() => {
     shuffleVideos();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -78,7 +79,7 @@ const Shuffle = () => {
         <VideoList>
           {
             shuffledList.map((video, index) => {
-              const { slug, thumbnail, title } = video;
+              const { thumbnail, title } = video;
               return index > currentIndex ? (
                 <ListEntry
                   key={slug}
