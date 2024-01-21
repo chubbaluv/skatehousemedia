@@ -1260,12 +1260,6 @@ const videos = [
         title: 'Fullpipin It'
       },
       {
-        slug: 'g-mack-highway-jam-final',
-        src: 'https://assets.skatehousemedia.com/G-mack-highway-jam-FINAL.mp4',
-        thumbnail: 'https://assets.skatehousemedia.com/thumbnails/G-mack-highway-jam-FINAL.jpg',
-        title: 'Gmack Highway Jam'
-      },
-      {
         slug: 'g-mack-raw-run',
         src: 'https://assets.skatehousemedia.com/G-Mack-Raw-Run.mp4',
         thumbnail: 'https://assets.skatehousemedia.com/thumbnails/G-Mack-Raw-Run.jpg',
