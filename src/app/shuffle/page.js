@@ -2,11 +2,8 @@
 import { useEffect, useState } from "react";
 import videos from "../../../data/videoData";
 import {
-  EntryThumbnail,
-  ListEntry,
   PageWrapper,
   TitleWrapper,
-  VideoList,
 } from "./shuffle-styled";
 import { BodyText, Headline, Subhead } from "#/components/Typography/Typography";
 import { basePadding } from "#/theme";
@@ -17,12 +14,15 @@ import Button from "#/components/Button";
 const Shuffle = () => {
   // TO-DO:
   // - We need to add a callback function for the ended event to start the next video https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event
-  // - Remove the video list below the shuffler in exchange for a simple "Up Next" card. On-click should just start the next video.
-  // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback. Very annoying, but this will prevent a run on resources if someone accidentally leaves shuffle playing."
+  // - When the video ends slowly fill the background of the next card with a lighter color for 5s before switching videos
+  // - Add a previous video card if applicable
+  // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback.
+  // - DOM Event should reset the amount of videos watched before the inactivity popup
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
+  const [isWatching, setIsWatching] = useState(true);
 
   const shuffleVideos = () => {
     const newShuffle = [].concat(shuffledList);;
@@ -37,7 +37,13 @@ const Shuffle = () => {
     setCurrentIndex(0);
   };
 
+  const handleOnEnded = () => {
+    if (currentIndex )
+  };
+
   const handleNextClick = () => setCurrentIndex(currentIndex + 1);
+
+
 
   useEffect(() => {
     shuffleVideos();
@@ -62,6 +68,7 @@ const Shuffle = () => {
         <VideoPlayer
           src={currentVideo?.src}
           thumbnail={currentVideo?.thumbnail}
+          onEnded={handleOnEnded}
         />
         <TitleWrapper>
           <Subhead variant='2'>
@@ -76,22 +83,6 @@ const Shuffle = () => {
             </Button>
           </>
         </TitleWrapper>
-        <VideoList>
-          {
-            shuffledList.map((video, index) => {
-              const { thumbnail, title } = video;
-              return index > currentIndex ? (
-                <ListEntry
-                  key={title}
-                >
-                  <EntryThumbnail $backgroundImage={thumbnail} />
-                  <Subhead variant='3'>{title}</Subhead>
-                  <BodyText variant='4'>Play Now</BodyText>
-                </ListEntry>
-              ) : null;
-            })
-          }
-        </VideoList>
       </PageWrapper>
     </>
   );

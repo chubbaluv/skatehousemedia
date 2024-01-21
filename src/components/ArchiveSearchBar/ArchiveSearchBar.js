@@ -1,5 +1,5 @@
 'use client'
-import { SearchInput } from './SearchBarStyled';
+import { SearchInput } from './ArchiveSearchBarStyled';
 
 export const SearchBar = ({ value, onChange }) => {
   return (
