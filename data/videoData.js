@@ -1657,6 +1657,301 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/Kozakov-2015-RAD.jpg",
     title: "Kozakov 2015",
   },
+  {
+    slug: "la-bougere-with-rayne",
+    src: "https://assets.skatehousemedia.com/La-Bougere-with-Rayne.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/La-Bougere-with-Rayne.jpg",
+    title: "La Bougere with Rayne",
+  },
+  {
+    slug: "la-teta-shm_1",
+    src: "https://assets.skatehousemedia.com/la-teta-shm_1.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/la-teta-shm_1.jpg",
+    title: "La Teta",
+  },
+  {
+    slug: "laguna",
+    src: "https://assets.skatehousemedia.com/Laguna.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Laguna.jpg",
+    title: "Laguna",
+  },
+  {
+    slug: "learning-curve-check-yoself",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Check-Yoself.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Check-Yoself.jpg",
+    title: "Learning Curve: Check Yoself",
+  },
+  {
+    slug: "learning-curve-dont-cross-the-line",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Dont-Cross-the-Line.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Dont-Cross-the-Line.jpg",
+    title: "Learning Curve: Don't Cross the Line",
+  },
+  {
+    slug: "learning-curve-dubler-chub-scrub",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Dubler-Chub-Scrub.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Dubler-Chub-Scrub.jpg",
+    title: "Learning Curve: Max Duble Chub Scrub",
+  },
+  {
+    slug: "learning-curve-max-dubler",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Max-Dubler.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Max-Dubler.jpg",
+    title: "Learning Curve: Max Dubler",
+  },
+  {
+    slug: "learning-curve-scott-lembach",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Scott-Lembach.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Scott-Lembach.jpg",
+    title: "Learning Curve: Scott Lembach",
+  },
+  {
+    slug: "learning-curve-skatesgiving",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Skatesgiving.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Skatesgiving.jpg",
+    title: "Learning Curve: Skatesgiving",
+  },
+  {
+    slug: "learning-curve-slide-early",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Slide-Early.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Slide-Early.jpg",
+    title: "Learning Curve: Slide Early",
+  },
+  {
+    slug: "learning-curve-smash-it",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Smash-It.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Smash-It.jpg",
+    title: "Learning Curve: Smash It",
+  },
+  {
+    slug: "learning-curve-toe-stop",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Toe-Stop.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Toe-Stop.jpg",
+    title: "Learning Curve: Toe Stop",
+  },
+  {
+    slug: "learning-curve-vol-2-with-max-capps",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Vol-2-with-Max-Capps.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Vol-2-with-Max-Capps.jpg",
+    title: "Learning Curve: Max Capps",
+  },
+  {
+    slug: "learning-curve-vol-3-featuring-kevin-reimer",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Vol-3-Featuring-Kevin-Reimer.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Vol-3-Featuring-Kevin-Reimer.jpg",
+    title: "Learning Curve: Kevin Reimer",
+  },
+  {
+    slug: "learning-curve-vol-4",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Vol-4.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Vol-4.jpg",
+    title: "Learning Curve: Vol. 4",
+  },
+  {
+    slug: "learning-curve-vol-5",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-Vol-5.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-Vol-5.jpg",
+    title: "Learning Curve: Vol. 5",
+  },
+  {
+    slug: "learning-curve-with-no-play",
+    src: "https://assets.skatehousemedia.com/Learning-Curve-with-No-Play.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curve-with-No-Play.jpg",
+    title: "Learning Curve: NO PLAY",
+  },
+  {
+    slug: "learning-curving-clapping-pucks",
+    src: "https://assets.skatehousemedia.com/Learning-Curving-Clapping-Pucks.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Learning-Curving-Clapping-Pucks.jpg",
+    title: "Learning Curve: Clapping Pucks",
+  },
+  {
+    slug: "legends-ethan-lau",
+    src: "https://assets.skatehousemedia.com/Legends-Ethan-Lau.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Legends-Ethan-Lau.jpg",
+    title: "Legens: Ethan Lau",
+  },
+  {
+    slug: "leonera",
+    src: "https://assets.skatehousemedia.com/Leonera.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Leonera.jpg",
+    title: "Leonera",
+  },
+  {
+    slug: "let-go",
+    src: "https://assets.skatehousemedia.com/LET-GO.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/LET-GO.jpg",
+    title: "Let Go",
+  },
+  {
+    slug: "levi-shm-chunderbunny",
+    src: "https://assets.skatehousemedia.com/Levi-SHM-Chunderbunny.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Levi-SHM-Chunderbunny.jpg",
+    title: "Levi Chunderbunny",
+  },
+  {
+    slug: "lgc-clip",
+    src: "https://assets.skatehousemedia.com/lgc-clip.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/lgc-clip.jpg",
+    title: "Longboard Girls Crew",
+  },
+  {
+    slug: "liam-morgan-shreds-hawaii",
+    src: "https://assets.skatehousemedia.com/Liam-Morgan-shreds-Hawaii.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Liam-Morgan-shreds-Hawaii.jpg",
+    title: "Liam Morgan in Hawaii",
+  },
+  {
+    slug: "livergnar-outlaw",
+    src: "https://assets.skatehousemedia.com/Livergnar-Outlaw.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Livergnar-Outlaw.jpg",
+    title: "Livegnar Outlaw",
+  },
+  {
+    slug: "local-andrew-mercado",
+    src: "https://assets.skatehousemedia.com/Local-Andrew-Mercado.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Local-Andrew-Mercado.jpg",
+    title: "Locals: Andrew Mercado",
+  },
+  {
+    slug: "local-dustin-hampton",
+    src: "https://assets.skatehousemedia.com/Local-Dustin-Hampton.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Local-Dustin-Hampton.jpg",
+    title: "Locals: Dustin Hampton",
+  },
+  {
+    slug: "local-stephen-beckman",
+    src: "https://assets.skatehousemedia.com/Local-Stephen-Beckman.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Local-Stephen-Beckman.jpg",
+    title: "Locals: Stephen Beckman",
+  },
+  {
+    slug: "locals-adam-and-louis-go-switch",
+    src: "https://assets.skatehousemedia.com/Locals-Adam-and-Louis-Go-Switch.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Adam-and-Louis-Go-Switch.jpg",
+    title: "Locals: Adam and Louis Go Switch",
+  },
+  {
+    slug: "locals-adam-colton",
+    src: "https://assets.skatehousemedia.com/Locals-Adam-Colton.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Adam-Colton.jpg",
+    title: "Locals: Adam Colton",
+  },
+  {
+    slug: "locals-boulder-creek",
+    src: "https://assets.skatehousemedia.com/Locals-Boulder-Creek.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Boulder-Creek.jpg",
+    title: "Locals: Boulder Creek",
+  },
+  {
+    slug: "locals-kyle-chin-in-hollywood",
+    src: "https://assets.skatehousemedia.com/Locals-Kyle-Chin-in-Hollywood.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Kyle-Chin-in-Hollywood.jpg",
+    title: "Locals: Kyle Chin in Hollywood",
+  },
+  {
+    slug: "locals-learning-curve-vol-1",
+    src: "https://assets.skatehousemedia.com/Locals-Learning-Curve-Vol-1.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Learning-Curve-Vol-1.jpg",
+    title: "Learning Curve: Vol. 1",
+  },
+  {
+    slug: "locals-max-ballesteros",
+    src: "https://assets.skatehousemedia.com/Locals-Max-Ballesteros.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Max-Ballesteros.jpg",
+    title: "Locals: Max Ballesteros",
+  },
+  {
+    slug: "locals-piuma",
+    src: "https://assets.skatehousemedia.com/Locals-Piuma.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Locals-Piuma.jpg",
+    title: "Locals: Piuma",
+  },
+  {
+    slug: "locals-raw-pack-skating",
+    src: "https://assets.skatehousemedia.com/Locals-Raw-Pack-Skating.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Raw-Pack-Skating.jpg",
+    title: "Locals: Pack Skating",
+  },
+  {
+    slug: "locals-tadaichi-nakayama",
+    src: "https://assets.skatehousemedia.com/Locals-Tadaichi-Nakayama.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Tadaichi-Nakayama.jpg",
+    title: "Locals: Tadaichi Nakayama",
+  },
+  {
+    slug: "locals-tai-nakayama",
+    src: "https://assets.skatehousemedia.com/Locals-Tai-Nakayama.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Locals-Tai-Nakayama.jpg",
+    title: "Locals: Tai Nakayama",
+  },
+  {
+    slug: "longboarders-go-to-santa-cruz-what-happens-next-you-wont-believe",
+    src: "https://assets.skatehousemedia.com/Longboarders-go-to-Santa-Cruz-WHAT-HAPPENS-NEXT-YOU-WONT-BELIEVE.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Longboarders-go-to-Santa-Cruz-WHAT-HAPPENS-NEXT-YOU-WONT-BELIEVE.jpg",
+    title:
+      "Lonbgboarders go to Santa Cruz. What happnes next you won't believe.",
+  },
+  {
+    slug: "loudog",
+    src: "https://assets.skatehousemedia.com/LouDog.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/LouDog.jpg",
+    title: "Loudog",
+  },
+  {
+    slug: "lousrawmanlyskatepark",
+    src: "https://assets.skatehousemedia.com/Lousrawmanlyskatepark.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Lousrawmanlyskatepark.jpg",
+    title: "Lou's Raw Manly Skatepark",
+  },
+  {
+    slug: "loveletter",
+    src: "https://assets.skatehousemedia.com/Loveletter.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Loveletter.jpg",
+    title: "Loveletter",
+  },
+  {
+    slug: "lundberg-double",
+    src: "https://assets.skatehousemedia.com/LUNDBERG-DOUBLE.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/LUNDBERG-DOUBLE.jpg",
+    title: "Lundberg Double",
+  },
 ];
 
 export default videos;
