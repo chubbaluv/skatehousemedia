@@ -56,3 +56,26 @@ export const EntryThumbnail = styled.div`
   background: ${({ $backgroundImage }) => `no-repeat center / cover url(${$backgroundImage})`};
   width: 150px;
 `;
+
+export const ControlButton = styled.button`
+  background-color: ${baseColors.gray1};
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: ${basePadding.small};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: ${transition.default};
+  width: 25%;
+
+  &:hover {
+    background-color:${baseColors.gray2};
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust padding and font size for better mobile responsiveness */
+    padding: 10px;
+    font-size: 14px;
+  }
+`;
