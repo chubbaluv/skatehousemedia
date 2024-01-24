@@ -22,6 +22,7 @@ const Shuffle = () => {
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
   const [bingedCount, setBingedCount] = useState(0);
+  const [fadeNextCard, setFadeNextCard] = useState(false);
 
   const shuffleVideos = useCallback(() => {
     const newShuffle = [].concat(shuffledList);
@@ -50,12 +51,17 @@ const Shuffle = () => {
   useEffect(() => {
     document.querySelector('video').addEventListener('ended', () => {
       setBingedCount(bingedCount + 1);
-      if (currentIndex === shuffledList.length - 1) {
-        shuffleVideos();
-        setCurrentIndex(0);
-      } else {
+      setFadeNextCard(true);
+      setTimeout(() => {
+        setFadeNextCard(false);
         setCurrentIndex(currentIndex + 1);
-      };
+        if (currentIndex === shuffledList.length - 1) {
+          shuffleVideos();
+          setCurrentIndex(0);
+        } else {
+          setCurrentIndex(currentIndex + 1);
+        };
+      }, 5000);
     });
     document.addEventListener('click', () => setBingedCount(0));
     document.addEventListener('keydown', () => setBingedCount(0));
@@ -106,8 +112,15 @@ const Shuffle = () => {
                 </ControlButton>
               )}
               <ControlButton
-                onClick={() => setCurrentIndex(currentIndex + 1)}
-                style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '40%' }}
+                onClick={() => handleNextClick()}
+                style={{ 
+                  display: 'flex', 
+                  flexDirection: 'row', 
+                  justifyContent: 'center', 
+                  width: '40%',
+                  transition: fadeNextCard ? 'background 5s linear' : 'none',
+                  background: fadeNextCard ? 'white' : 'transparent',
+                }}
               >
                 <div>
                   <Subhead variant='3'>Next</Subhead>
