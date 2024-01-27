@@ -7,7 +7,7 @@ import BackButtonBar from "#/components/BackButtonBar";
 import VideoCard from "#/components/VideoCard";
 import LazyWrapper from "#/components/LazyWrapper/LazyWrapper";
 import { basePadding } from "#/theme";
-import SearchBar from '#/components/SearchBar/SearchBar';
+import ArchiveSearchBar from '#/components/ArchiveSearchBar/ArchiveSearchBar';
 
 const Archive = () => {
   const [searchInput, setSearchInput] = useState('');
@@ -37,7 +37,7 @@ const Archive = () => {
         >
           Archive
         </Headline>
-        <SearchBar
+        <ArchiveSearchBar
           value={searchInput}
           onChange={handleSearch}
         />

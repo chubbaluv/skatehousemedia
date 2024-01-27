@@ -1,12 +1,10 @@
 'use client'
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import videos from "../../../data/videoData";
 import {
-  EntryThumbnail,
-  ListEntry,
   PageWrapper,
   TitleWrapper,
-  VideoList,
+  ControlButton,
 } from "./shuffle-styled";
 import { BodyText, Headline, Subhead } from "#/components/Typography/Typography";
 import { basePadding } from "#/theme";
@@ -16,16 +14,18 @@ import Button from "#/components/Button";
 
 const Shuffle = () => {
   // TO-DO:
-  // - We need to add a callback function for the ended event to start the next video https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event
-  // - Remove the video list below the shuffler in exchange for a simple "Up Next" card. On-click should just start the next video.
-  // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback. Very annoying, but this will prevent a run on resources if someone accidentally leaves shuffle playing."
+  // - When the video ends slowly fill the background of the next card with a lighter color over 5s before switching videos
+  // - Have a "Are you still watching" popup that displays when binged count hits 5 and pauses playback.
+  // - DOM Event (click, mousemove, keypress) should reset the amount of videos watched before the inactivity popup
 
-  const [currentIndex, setCurentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
+  const [bingedCount, setBingedCount] = useState(0);
+  const [fadeNextCard, setFadeNextCard] = useState(false);
 
-  const shuffleVideos = () => {
-    const newShuffle = [].concat(shuffledList);;
+  const shuffleVideos = useCallback(() => {
+    const newShuffle = [].concat(shuffledList);
     for (let i = newShuffle.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       const temp = newShuffle[i];
@@ -34,10 +34,10 @@ const Shuffle = () => {
     }
 
     setShuffledList(newShuffle);
-    setCurentIndex(0);
-  };
+    setCurrentIndex(0);
+  }, [shuffledList]);
 
-  const handleNextClick = () => setCurentIndex(currentIndex + 1);
+  const handleNextClick = () => setCurrentIndex(currentIndex + 1);
 
   useEffect(() => {
     shuffleVideos();
@@ -47,6 +47,27 @@ const Shuffle = () => {
   useEffect(() => {
     setCurrentVideo(shuffledList[currentIndex]);
   }, [currentIndex, shuffledList]);
+
+  useEffect(() => {
+    document.querySelector('video').addEventListener('ended', () => {
+      setBingedCount(bingedCount + 1);
+      setFadeNextCard(true);
+      setTimeout(() => {
+        setFadeNextCard(false);
+        setCurrentIndex(currentIndex + 1);
+        if (currentIndex === shuffledList.length - 1) {
+          shuffleVideos();
+          setCurrentIndex(0);
+        } else {
+          setCurrentIndex(currentIndex + 1);
+        };
+      }, 5000);
+    });
+    document.addEventListener('click', () => setBingedCount(0));
+    document.addEventListener('keydown', () => setBingedCount(0));
+    document.addEventListener('mousemove', () => setBingedCount(0));
+  }, [bingedCount, currentIndex, shuffleVideos, shuffledList.length]);
+
 
   return (
     <>
@@ -68,30 +89,47 @@ const Shuffle = () => {
             {currentVideo?.title}
           </Subhead>
           <>
-            <Button handleClick={() => handleNextClick()}>
-              <Subhead variant='4'>Skip</Subhead>
-            </Button>
             <Button handleClick={() => shuffleVideos()}>
-              <Subhead variant='4'>Shuffle</Subhead>
+              <Subhead variant='5'>Re-Shuffle</Subhead>
             </Button>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: currentIndex !== 0 ? 'space-between' : 'flex-end',
+                marginTop: '16px',
+                gridColumn: '1/4'
+              }}
+            >
+              {currentIndex !== 0 && (
+                <ControlButton
+                  onClick={() => setCurrentIndex(currentIndex - 1)}
+                  style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '40%' }}
+                >
+                  <div>
+                    <Subhead variant='3'>Back</Subhead>
+                    <Subhead variant='5'>{shuffledList[currentIndex - 1]?.title}</Subhead>
+                  </div>
+                </ControlButton>
+              )}
+              <ControlButton
+                onClick={() => handleNextClick()}
+                style={{ 
+                  display: 'flex', 
+                  flexDirection: 'row', 
+                  justifyContent: 'center', 
+                  width: '40%',
+                  transition: fadeNextCard ? 'background 5s linear' : 'none',
+                  background: fadeNextCard ? 'white' : 'transparent',
+                }}
+              >
+                <div>
+                  <Subhead variant='3'>Next</Subhead>
+                  <Subhead variant='5'>{shuffledList[currentIndex + 1]?.title}</Subhead>
+                </div>
+              </ControlButton>
+            </div>
           </>
         </TitleWrapper>
-        <VideoList>
-          {
-            shuffledList.map((video, index) => {
-              const { thumbnail, title } = video;
-              return index > currentIndex ? (
-                <ListEntry
-                  key={index}
-                >
-                  <EntryThumbnail $backgroundImage={thumbnail} />
-                  <Subhead variant='3'>{title}</Subhead>
-                  <BodyText variant='4'>Play Now</BodyText>
-                </ListEntry>
-              ) : null;
-            })
-          }
-        </VideoList>
       </PageWrapper>
     </>
   );
