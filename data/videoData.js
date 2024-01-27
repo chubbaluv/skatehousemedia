@@ -2369,6 +2369,43 @@ const videos = [
     title: "NYC Hard Wheel Slide Jam",
   },
   {
+    slug: "obey-the-man",
+    src: "https://assets.skatehousemedia.com/Obey-The-Man.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Obey-The-Man.jpg",
+    title: "Obey the Man",
+  },
+  {
+    slug: "odda",
+    src: "https://assets.skatehousemedia.com/ODDA.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/ODDA.jpg",
+    title: "ODDA",
+  },
+  {
+    slug: "ok-canada-tour",
+    src: "https://assets.skatehousemedia.com/OK-Canada-Tour.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/OK-Canada-Tour.jpg",
+    title: "OK Canada Tour",
+  },
+  {
+    slug: "one-day-cory",
+    src: "https://assets.skatehousemedia.com/One-Day-Cory.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/One-Day-Cory.jpg",
+    title: "One Day with Cory",
+  },
+  {
+    slug: "oscar-shm",
+    src: "https://assets.skatehousemedia.com/oscar-SHM.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/oscar-SHM.jpg",
+    title: "Oscar",
+  },
+  {
+    slug: "osl-raw",
+    src: "https://assets.skatehousemedia.com/OSL-RAW.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/OSL-RAW.jpg",
+    title: "Raw Run: OSL",
+  },
+  {
     slug: "psa-use-your-head",
     src: "https://assets.skatehousemedia.com/PSA-Use-Your-Head.mp4",
     thumbnail:
