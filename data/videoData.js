@@ -1552,13 +1552,6 @@ const videos = [
     title: "Guns and Skateboarding",
   },
   {
-    slug: "psa-use-your-head",
-    src: "https://assets.skatehousemedia.com/PSA-Use-Your-Head.mp4",
-    thumbnail:
-      "https://assets.skatehousemedia.com/thumbnails/PSA-Use-Your-Head.jpg",
-    title: "PSA: Use Your Head",
-  },
-  {
     slug: "kai-24fps",
     src: "https://assets.skatehousemedia.com/KAI-24fps.mp4",
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/KAI-24fps.jpg",
@@ -2291,6 +2284,96 @@ const videos = [
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/MUSUMECI-MINUTE-SHM-FINAL.jpg",
     title: "Musumeci Minute",
+  },
+  {
+    slug: "neighborhood-run-w-kody",
+    src: "https://assets.skatehousemedia.com/Neighborhood-Run-w-Kody.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Neighborhood-Run-w-Kody.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "new-years-slide-jam",
+    src: "https://assets.skatehousemedia.com/New-Years-Slide-Jam.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/New-Years-Slide-Jam.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "new-zealand-episode-1",
+    src: "https://assets.skatehousemedia.com/New-Zealand-Episode-1.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/New-Zealand-Episode-1.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "new-zealand-episode-2",
+    src: "https://assets.skatehousemedia.com/New-Zealand-Episode-2.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/New-Zealand-Episode-2.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "new-zealand-part-3",
+    src: "https://assets.skatehousemedia.com/New-Zealand-Part-3.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/New-Zealand-Part-3.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "newtons-nation-clip-1",
+    src: "https://assets.skatehousemedia.com/Newtons-Nation-Clip-1.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Newtons-Nation-Clip-1.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "night-runs",
+    src: "https://assets.skatehousemedia.com/Night-Runs.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Night-Runs.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "no-future-skateboarding-jm-duran",
+    src: "https://assets.skatehousemedia.com/No-Future-Skateboarding-JM-Duran.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/No-Future-Skateboarding-JM-Duran.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "norcal-on-mohaulin",
+    src: "https://assets.skatehousemedia.com/Norcal-on-Mohaulin.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Norcal-on-Mohaulin.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "norwegian-groms",
+    src: "https://assets.skatehousemedia.com/Norwegian-Groms.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Norwegian-Groms.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "not-borderlands",
+    src: "https://assets.skatehousemedia.com/Not-Borderlands.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Not-Borderlands.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "nyc-hard-wheel-slide-jam",
+    src: "https://assets.skatehousemedia.com/NYC-Hard-Wheel-Slide-Jam.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/NYC-Hard-Wheel-Slide-Jam.jpg",
+    title: "XXXXXX",
+  },
+  {
+    slug: "psa-use-your-head",
+    src: "https://assets.skatehousemedia.com/PSA-Use-Your-Head.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/PSA-Use-Your-Head.jpg",
+    title: "PSA: Use Your Head",
   },
 ];
 
