@@ -2568,6 +2568,405 @@ const videos = [
     thumbnail: "https://assets.skatehousemedia.com/thumbnails/PSYCHO.jpg",
     title: "Psycho",
   },
+  {
+    slug: "quick-clip-adam-persson",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Adam-Persson.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Adam-Persson.jpg",
+    title: "Quick Clip: Adam Persson",
+  },
+  {
+    slug: "quick-clip-bagel-run",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Bagel-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Bagel-Run.jpg",
+    title: "Quick Clip: Bagel Run",
+  },
+  {
+    slug: "quick-clip-bottreau",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Bottreau.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Bottreau.jpg",
+    title: "Quick Clip: Bottreau",
+  },
+  {
+    slug: "quick-clip-chubbs",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Chubbs.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Chubbs.jpg",
+    title: "Quick Clip: Chubbs",
+  },
+  {
+    slug: "quick-clip-cooper-can",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Cooper-CAN.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Cooper-CAN.jpg",
+    title: "Quick Clip: Cooper",
+  },
+  {
+    slug: "quick-clip-east-coast",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-East-Coast.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-East-Coast.jpg",
+    title: "Quick Clip: East Coast",
+  },
+  {
+    slug: "quick-clip-ethan-lau",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Ethan-Lau.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Ethan-Lau.jpg",
+    title: "Quick Clip: Ethan Lau",
+  },
+  {
+    slug: "quick-clip-guajataka-downhill-7",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Guajataka-Downhill-7.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Guajataka-Downhill-7.jpg",
+    title: "Quick Clip: Guajataka Downhill 7",
+  },
+  {
+    slug: "quick-clip-harrison-depass",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Harrison-Depass.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Harrison-Depass.jpg",
+    title: "Quick Clip: Harrison Depass",
+  },
+  {
+    slug: "quick-clip-ian-mcsherry",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Ian-McSherry.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Ian-McSherry.jpg",
+    title: "Quick Clip: Ian McSherry",
+  },
+  {
+    slug: "quick-clip-kaimana-pinto",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Kaimana-Pinto.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Kaimana-Pinto.jpg",
+    title: "Quick Clip: Kaimano Pinto",
+  },
+  {
+    slug: "quick-clip-louis-and-james",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Louis-and-James.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Louis-and-James.jpg",
+    title: "Quick Clip: Louis and James",
+  },
+  {
+    slug: "quick-clip-pat-schep",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Pat-Schep.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Pat-Schep.jpg",
+    title: "Quick Clip: Pat Schep",
+  },
+  {
+    slug: "quick-clip-pete-bombs-the-tunnels",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Pete-Bombs-the-Tunnels.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Pete-Bombs-the-Tunnels.jpg",
+    title: "Quick Clip: Pete Bombs the Tunnels",
+  },
+  {
+    slug: "quick-clip-riley-crone-on-the-bottom-3",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Riley-Crone-on-the-Bottom-3.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Riley-Crone-on-the-Bottom-3.jpg",
+    title: "Quick Clip: Riley Crone",
+  },
+  {
+    slug: "quick-clip-roger-and-chance",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Roger-and-Chance.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Roger-and-Chance.jpg",
+    title: "Quick Clip: Roger and Chance",
+  },
+  {
+    slug: "quick-clip-small-boulders-with-louis",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Small-Boulders-with-Louis.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Small-Boulders-with-Louis.jpg",
+    title: "Quick Clip: Small Boulders with Louis",
+  },
+  {
+    slug: "quick-clip-stephan-vaast",
+    src: "https://assets.skatehousemedia.com/Quick-Clip-Stephan-Vaast.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Stephan-Vaast.jpg",
+    title: "Quick Clip: Stephan Vaast",
+  },
+  {
+    slug: "quick-clips-afb",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-AFB.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-AFB.jpg",
+    title: "Quick Clip: AFB",
+  },
+  {
+    slug: "quick-clips-amane-kishida",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Amane-Kishida.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Amane-Kishida.jpg",
+    title: "Quick Clip: Amane Kishida",
+  },
+  {
+    slug: "quick-clips-ben-dub-in-the-graveyard",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Ben-Dub-In-The-Graveyard.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Ben-Dub-In-The-Graveyard.jpg",
+    title: "Quick Clip: Ben Dub in the Graveyard",
+  },
+  {
+    slug: "quick-clips-ben-dub",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Ben-Dub.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Ben-Dub.jpg",
+    title: "Quick Clip: Ben Dub",
+  },
+  {
+    slug: "quick-clips-benjamin-dubreuil",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Benjamin-Dubreuil.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Benjamin-Dubreuil.jpg",
+    title: "Quick Clip: Benjamin Dubreuil",
+  },
+  {
+    slug: "quick-clips-brandon-kourie",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Brandon-Kourie.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Brandon-Kourie.jpg",
+    title: "Quick Clip: Brandon Kourie",
+  },
+  {
+    slug: "quick-clips-bruno-and-toti",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Bruno-and-Toti.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Bruno-and-Toti.jpg",
+    title: "Quick Clip: Bruno and Toti",
+  },
+  {
+    slug: "quick-clips-bruno-sirera",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Bruno-Sirera.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Bruno-Sirera.jpg",
+    title: "Quick Clip: Bruno Sirera",
+  },
+  {
+    slug: "quick-clips-camilo-cespedes",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Camilo-Cespedes.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Camilo-Cespedes.jpg",
+    title: "Quick Clip: Camilo Cespedes",
+  },
+  {
+    slug: "quick-clips-charlie-darragh",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Charlie-Darragh.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Charlie-Darragh.jpg",
+    title: "Quick Clip: Charlie Darragh",
+  },
+  {
+    slug: "quick-clips-danger-bay-slide-comp",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Danger-Bay-Slide-Comp.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Danger-Bay-Slide-Comp.jpg",
+    title: "Quick Clip: Danger Bay Slide Comp",
+  },
+  {
+    slug: "quick-clips-dejan-mustard-djukic",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Dejan-Mustard-Djukic.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Dejan-Mustard-Djukic.jpg",
+    title: "Quick Clip: Dejan Mustard Djukic",
+  },
+  {
+    slug: "quick-clips-dexter-manning",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Dexter-Manning.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Dexter-Manning.jpg",
+    title: "Quick Clip: Dexter Manning",
+  },
+  {
+    slug: "quick-clips-dirty-ben-30",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Dirty-Ben-30.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Dirty-Ben-30.jpg",
+    title: "Quick Clip: Diry Ben",
+  },
+  {
+    slug: "quick-clips-ditch-road-doubles",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Ditch-Road-Doubles.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Ditch-Road-Doubles.jpg",
+    title: "Quick Clip: Ditch Road Doubles",
+  },
+  {
+    slug: "quick-clips-emma-daigle-seize-iles",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Emma-Daigle-Seize-Iles.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Emma-Daigle-Seize-Iles.jpg",
+    title: "Quick Clip: Emma Daigle Seize Iles",
+  },
+  {
+    slug: "quick-clips-ghf",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-GHF.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-GHF.jpg",
+    title: "Quick Clip: GHF",
+  },
+  {
+    slug: "quick-clips-jakes-rash-final-heat",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Jakes-Rash-Final-Heat.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Jakes-Rash-Final-Heat.jpg",
+    title: "Quick Clip: Jakes Rash Final Heat",
+  },
+  {
+    slug: "quick-clips-james-on-boarder-cross",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-James-on-Boarder-Cross.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-James-on-Boarder-Cross.jpg",
+    title: "Quick Clip: James on Boarder Cross",
+  },
+  {
+    slug: "quick-clips-mackenzie-yoshida",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Mackenzie-Yoshida.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Mackenzie-Yoshida.jpg",
+    title: "Quick Clip: Mackenzie Yoshida",
+  },
+  {
+    slug: "quick-clips-matt-k-can",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Matt-K-CAN.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Matt-K-CAN.jpg",
+    title: "Quick Clip: Matt K",
+  },
+  {
+    slug: "quick-clips-mattk",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-MattK.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-MattK.jpg",
+    title: "Quick Clip: MattK",
+  },
+  {
+    slug: "quick-clips-mt-st-helen-pack-weaving",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Mt-St-Helen-Pack-Weaving.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Mt-St-Helen-Pack-Weaving.jpg",
+    title: "Quick Clip: Mt. St. Helen Pack Weaving",
+  },
+  {
+    slug: "quick-clips-pat-schep",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Pat-Schep.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Pat-Schep.jpg",
+    title: "Quick Clip: Pat Schep",
+  },
+  {
+    slug: "quick-clips-peru",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Peru.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Peru.jpg",
+    title: "Quick Clip: Peru",
+  },
+  {
+    slug: "quick-clips-praque-mini-runs",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Praque-Mini-Runs.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Praque-Mini-Runs.jpg",
+    title: "Quick Clip: Prague Mini runs",
+  },
+  {
+    slug: "quick-clips-puerto-rico-chance-gaul",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Puerto-Rico-Chance-Gaul.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Puerto-Rico-Chance-Gaul.jpg",
+    title: "Quick Clip: Chance Gaul",
+  },
+  {
+    slug: "quick-clips-rodrigo-toti-martinez-de-tejada",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Rodrigo-Toti-Martinez-De-Tejada.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Rodrigo-Toti-Martinez-De-Tejada.jpg",
+    title: "Quick Clip: Rodrigo Toti Martinez de Tejada",
+  },
+  {
+    slug: "quick-clips-rueben-rapoport",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Rueben-Rapoport.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Rueben-Rapoport.jpg",
+    title: "Quick Clip: Rueben Rapoport",
+  },
+  {
+    slug: "quick-clips-sbsx-arlington",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-SBSX-Arlington.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-SBSX-Arlington.jpg",
+    title: "Quick Clip: SBSX Arlington",
+  },
+  {
+    slug: "quick-clips-sidewalk-bomb-with-ben-dub",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Sidewalk-Bomb-with-Ben-Dub.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Sidewalk-Bomb-with-Ben-Dub.jpg",
+    title: "Quick Clip: Ben Dub",
+  },
+  {
+    slug: "quick-clips-sydney-boarder-x",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Sydney-Boarder-X.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Sydney-Boarder-X.jpg",
+    title: "Quick Clip: Sydney Boarder X",
+  },
+  {
+    slug: "quick-clips-tibs-parise",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Tibs-Parise.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Tibs-Parise.jpg",
+    title: "Quick Clip: Tibs Parise",
+  },
+  {
+    slug: "quick-clips-tnf-matt",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-TNF-Matt.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-TNF-Matt.jpg",
+    title: "Quick Clip: TNF Matt",
+  },
+  {
+    slug: "quick-clips-turbo-troy",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Turbo-Troy.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Turbo-Troy.jpg",
+    title: "Quick Clip: Turbo Troy",
+  },
+  {
+    slug: "quick-clips-will-smallwood-at-blacks",
+    src: "https://assets.skatehousemedia.com/Quick-Clips-Will-Smallwood-at-Blacks.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Will-Smallwood-at-Blacks.jpg",
+    title: "Quick Clip: Will Smallwood",
+  },
+  {
+    slug: "quick-line-at-hawaii-kai",
+    src: "https://assets.skatehousemedia.com/Quick-line-at-Hawaii-Kai.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-line-at-Hawaii-Kai.jpg",
+    title: "Quick Clip: Hawaii Kai",
+  },
+  {
+    slug: "quick-run-la-la-we-go",
+    src: "https://assets.skatehousemedia.com/Quick-Run-La-La-We-Go.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Run-La-La-We-Go.jpg",
+    title: "Quick Clip: La La We Go",
+  },
+  {
+    slug: "quick-run-with-ben-dubreuil-at-the-ste-marie-gravity-fest",
+    src: "https://assets.skatehousemedia.com/Quick-Run-with-Ben-Dubreuil-at-the-Ste-Marie-Gravity-Fest.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Quick-Run-with-Ben-Dubreuil-at-the-Ste-Marie-Gravity-Fest.jpg",
+    title: "Quick Clip: Ben Dub Ste. Marie",
+  },
 ];
 
 export default videos;
