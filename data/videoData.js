@@ -3492,6 +3492,334 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Lysebotn.jpg",
     title: "Raw Run: Lysebotn",
   },
+  {
+    slug: "raw-run-mack-wacey",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Mack-Wacey.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Mack-Wacey.jpg",
+    title: "Raw Run: Mack Wacey",
+  },
+  {
+    slug: "raw-run-marycopter-run-2",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Marycopter-Run-2.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Marycopter-Run-2.jpg",
+    title: "Raw Run: Marycopter Run 2",
+  },
+  {
+    slug: "raw-run-marycopter",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Marycopter.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Marycopter.jpg",
+    title: "Raw Run: Marycopter Run 1",
+  },
+  {
+    slug: "raw-run-maryhill",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Maryhill.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Maryhill.jpg",
+    title: "Raw Run: Maryhill",
+  },
+  {
+    slug: "raw-run-matt-deitch",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Matt-Deitch.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Matt-Deitch.jpg",
+    title: "Raw Run: Matt Deitch",
+  },
+  {
+    slug: "raw-run-matt-k-barefoot",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Matt-K-Barefoot.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Matt-K-Barefoot.jpg",
+    title: "Raw Run: Matt K Barefoot",
+  },
+  {
+    slug: "raw-run-matts-birthday-run",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Matts-Birthday-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Matts-Birthday-Run.jpg",
+    title: "Raw Run: Matts Birthday Run",
+  },
+  {
+    slug: "raw-run-max-dubler-ii",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Max-Dubler-II.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Max-Dubler-II.jpg",
+    title: "Raw Run: Max Dubeler II",
+  },
+  {
+    slug: "raw-run-max",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Max.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Max.jpg",
+    title: "Raw Run: Max Dubler 1",
+  },
+  {
+    slug: "raw-run-mclovin",
+    src: "https://assets.skatehousemedia.com/Raw-Run-McLovin.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-McLovin.jpg",
+    title: "Raw Run: McLovin",
+  },
+  {
+    slug: "raw-run-mordor",
+    src: "https://assets.skatehousemedia.com/Raw-Run-MORDOR.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-MORDOR.jpg",
+    title: "Raw Run: Mordor",
+  },
+  {
+    slug: "raw-run-mt-jefferson",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Mt-Jefferson.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Mt-Jefferson.jpg",
+    title: "Raw Run: Mt. Jefferson",
+  },
+  {
+    slug: "raw-run-mt-keira-rawjackoshm",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Mt-Keira-RawJackoSHM.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Mt-Keira-RawJackoSHM.jpg",
+    title: "Raw Run: Mt. Kiera Jacko",
+  },
+  {
+    slug: "raw-run-netwons-nations",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Netwons-Nations.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Netwons-Nations.jpg",
+    title: "Raw Run: Newtons Nation I",
+  },
+  {
+    slug: "raw-run-newtons-nation",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Newtons-Nation.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Newtons-Nation.jpg",
+    title: "Raw Run: Newtons Nation II",
+  },
+  {
+    slug: "raw-run-norm-plante-in-florida",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Norm-Plante-in-Florida.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Norm-Plante-in-Florida.jpg",
+    title: "Raw Run: Norm Plante in Florida",
+  },
+  {
+    slug: "raw-run-norman-plante",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Norman-Plante.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Norman-Plante.jpg",
+    title: "Raw Run: Norman Plante",
+  },
+  {
+    slug: "raw-run-oscar",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Oscar.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Oscar.jpg",
+    title: "Raw Run: Oscar",
+  },
+  {
+    slug: "raw-run-pat-schep",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Pat-Schep.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Pat-Schep.jpg",
+    title: "Raw Run: Pat Schep",
+  },
+  {
+    slug: "raw-run-pete-eubank",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Pete-Eubank.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Pete-Eubank.jpg",
+    title: "Raw Run: Pete Eubank",
+  },
+  {
+    slug: "raw-run-peyragudes",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Peyragudes.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Peyragudes.jpg",
+    title: "Raw Run: Peyragudes",
+  },
+  {
+    slug: "raw-run-rumble-at-the-ranch",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Rumble-at-the-Ranch.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Rumble-at-the-Ranch.jpg",
+    title: "Raw Run: Rumble at the Ranch",
+  },
+  {
+    slug: "raw-run-sb-homies",
+    src: "https://assets.skatehousemedia.com/Raw-Run-SB-Homies.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-SB-Homies.jpg",
+    title: "Raw Run: SB Homies",
+  },
+  {
+    slug: "raw-run-skatesgiving-throwback",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Skatesgiving-Throwback.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Skatesgiving-Throwback.jpg",
+    title: "Raw Run: Skatesgiving Throwback",
+  },
+  {
+    slug: "raw-run-sketchy-euro-mini-jam",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Sketchy-Euro-Mini-Jam.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Sketchy-Euro-Mini-Jam.jpg",
+    title: "Raw Run: Sketchy Euro Mini Jam",
+  },
+  {
+    slug: "raw-run-spain-aidan",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Spain-Aidan.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Spain-Aidan.jpg",
+    title: "Raw Run: Spain Aidan",
+  },
+  {
+    slug: "raw-run-split-the-difference",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Split-The-Difference.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Split-The-Difference.jpg",
+    title: "Raw Run: Split the Difference",
+  },
+  {
+    slug: "raw-run-steep-and-deep-with-matt-deitch",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Steep-and-Deep-with-Matt-Deitch.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Steep-and-Deep-with-Matt-Deitch.jpg",
+    title: "Raw Run: Steep and Depp with Matt Deitch",
+  },
+  {
+    slug: "raw-run-stefan-kaiter-snyder-and-geoff-chapel",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Stefan-Kaiter-Snyder-and-Geoff-Chapel.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Stefan-Kaiter-Snyder-and-Geoff-Chapel.jpg",
+    title: "Raw Run: Stefan KaiterSnyder and Geoof Chapel",
+  },
+  {
+    slug: "raw-run-steven-vera-at-skate-sun-peaks",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Steven-Vera-at-Skate-Sun-Peaks.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Steven-Vera-at-Skate-Sun-Peaks.jpg",
+    title: "Raw Run: Steven Vera at Skate Sun Peaks",
+  },
+  {
+    slug: "raw-run-striker-on-trouser-canyon",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Striker-on-Trouser-Canyon.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Striker-on-Trouser-Canyon.jpg",
+    title: "Raw Run: Striker on Trouser Canyon",
+  },
+  {
+    slug: "raw-run-sullivan-challange",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Sullivan-Challange.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Sullivan-Challange.jpg",
+    title: "Raw Run: Sullivan Challenge",
+  },
+  {
+    slug: "raw-run-teutonia",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Teutonia.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Teutonia.jpg",
+    title: "Raw Run: Teutonia",
+  },
+  {
+    slug: "raw-run-thane-on-the-lens-with-chance-gaul",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Thane-on-the-Lens-with-Chance-Gaul.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Thane-on-the-Lens-with-Chance-Gaul.jpg",
+    title: "Raw Run: Thane on the Lens with Chance Gaul",
+  },
+  {
+    slug: "raw-run-top-to-bottom-with-seth-mckinney",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Top-To-Bottom-with-Seth-McKinney.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Top-To-Bottom-with-Seth-McKinney.jpg",
+    title: "Raw Run: Top to Bottom with Seth McKinney",
+  },
+  {
+    slug: "raw-run-verdicchio-race-quarter-finals",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Verdicchio-race-quarter-finals.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Verdicchio-race-quarter-finals.jpg",
+    title: "Raw Run: Verdicchio Race Quarter Finals",
+  },
+  {
+    slug: "raw-run-warm-up-with-james-kelly",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Warm-up-with-James-Kelly.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Warm-up-with-James-Kelly.jpg",
+    title: "Raw Run: Warm Up with James Kelly",
+  },
+  {
+    slug: "raw-run-whistler-backwards",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Whistler-Backwards.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Whistler-Backwards.jpg",
+    title: "Raw Run: Whistler Backwards",
+  },
+  {
+    slug: "raw-run-whistler-sector-9-team",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Whistler-Sector-9-Team.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Whistler-Sector-9-Team.jpg",
+    title: "Raw Run: Whistler Sector 9 Team",
+  },
+  {
+    slug: "raw-run-will-royce-mulholland",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Will-Royce-Mulholland.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Will-Royce-Mulholland.jpg",
+    title: "Raw Run: Will Royce Mohaulin",
+  },
+  {
+    slug: "raw-run-will-seal-revisited",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Will-Seal-Revisited.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Will-Seal-Revisited.jpg",
+    title: "Raw Run: Will Seal Revisited",
+  },
+  {
+    slug: "raw-run-will-seal",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Will-Seal.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Will-Seal.jpg",
+    title: "Raw Run: Will Seal",
+  },
+  {
+    slug: "raw-run-zak-maytum-barrett-junction",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Zak-Maytum-Barrett-Junction.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Zak-Maytum-Barrett-Junction.jpg",
+    title: "Raw Run: Zak Maytum on Barrett Junction",
+  },
+  {
+    slug: "raw-run-zak-maytum-buffalo-bill",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Zak-Maytum-Buffalo-Bill.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Zak-Maytum-Buffalo-Bill.jpg",
+    title: "Raw Run: Zak Maytum at Buffalo Bill",
+  },
+  {
+    slug: "raw-run-zak-maytum-in-switzerland",
+    src: "https://assets.skatehousemedia.com/Raw-Run-Zak-Maytum-in-Switzerland.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Zak-Maytum-in-Switzerland.jpg",
+    title: "Raw Run: Zak Maytum in Switzerland",
+  },
+  {
+    slug: "rawish-run-dave-angelus",
+    src: "https://assets.skatehousemedia.com/Rawish-Run-Dave-Angelus.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Rawish-Run-Dave-Angelus.jpg",
+    title: "Raw-ish Run: Dave Angelus",
+  },
+  {
+    slug: "rawrunpatsfunk",
+    src: "https://assets.skatehousemedia.com/rawrunpatsfunk.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/rawrunpatsfunk.jpg",
+    title: "Raw Run: Pats Funk",
+  },
 ];
 
 export default videos;
