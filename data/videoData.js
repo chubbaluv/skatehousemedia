@@ -4112,6 +4112,264 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/Session-Will-Royce.jpg",
     title: "Sessions: Will Royce",
   },
+  {
+    slug: "sessions-7d",
+    src: "https://assets.skatehousemedia.com/Sessions-7d.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Sessions-7d.jpg",
+    title: "Sessions: 7d",
+  },
+  {
+    slug: "sessions-a-driveway",
+    src: "https://assets.skatehousemedia.com/Sessions-A-Driveway.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-A-Driveway.jpg",
+    title: "Sessions: A Driveway",
+  },
+  {
+    slug: "sessions-a-great-mountain-road",
+    src: "https://assets.skatehousemedia.com/Sessions-A-Great-Mountain-Road.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-A-Great-Mountain-Road.jpg",
+    title: "Sessions: A Great Mountain Road",
+  },
+  {
+    slug: "sessions-almatrieb",
+    src: "https://assets.skatehousemedia.com/Sessions-Almatrieb.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Almatrieb.jpg",
+    title: "Sessions: Almatrieb",
+  },
+  {
+    slug: "sessions-bread-bowl",
+    src: "https://assets.skatehousemedia.com/Sessions-Bread-Bowl.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Bread-Bowl.jpg",
+    title: "Sessions: Bread Bowl",
+  },
+  {
+    slug: "sessions-chino-park",
+    src: "https://assets.skatehousemedia.com/Sessions-Chino-Park.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Chino-Park.jpg",
+    title: "Sessions: Chino Park",
+  },
+  {
+    slug: "sessions-deck-her",
+    src: "https://assets.skatehousemedia.com/Sessions-Deck-Her.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Deck-Her.jpg",
+    title: "Sessions: Deck Her",
+  },
+  {
+    slug: "sessions-euro-alps-shralp",
+    src: "https://assets.skatehousemedia.com/Sessions-Euro-Alps-Shralp.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Euro-Alps-Shralp.jpg",
+    title: "Sessions: Euro Alps Shralp",
+  },
+  {
+    slug: "sessions-fast-as-funk",
+    src: "https://assets.skatehousemedia.com/Sessions-Fast-as-Funk.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Fast-as-Funk.jpg",
+    title: "Sessions: Fast as Funk",
+  },
+  {
+    slug: "sessions-flour-hill",
+    src: "https://assets.skatehousemedia.com/Sessions-Flour-Hill.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Flour-Hill.jpg",
+    title: "Sessions: Flour Hill",
+  },
+  {
+    slug: "sessions-fullpipe",
+    src: "https://assets.skatehousemedia.com/Sessions-Fullpipe.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Fullpipe.jpg",
+    title: "Sessions: Fullpipe",
+  },
+  {
+    slug: "sessions-gnarbara",
+    src: "https://assets.skatehousemedia.com/Sessions-Gnarbara.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Gnarbara.jpg",
+    title: "Sessions: Gnarbara",
+  },
+  {
+    slug: "sessions-gopro-on-a-nice-boom",
+    src: "https://assets.skatehousemedia.com/Sessions-GoPro-on-a-Nice-Boom.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-GoPro-on-a-Nice-Boom.jpg",
+    title: "Sessions: GoPro on a Nice Boom",
+  },
+  {
+    slug: "sessions-group-mountain-riding",
+    src: "https://assets.skatehousemedia.com/Sessions-Group-Mountain-Riding.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Group-Mountain-Riding.jpg",
+    title: "Sessions: Group Mountain Riding",
+  },
+  {
+    slug: "sessions-happy-birthday-louis",
+    src: "https://assets.skatehousemedia.com/Sessions-Happy-Birthday-Louis.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Happy-Birthday-Louis.jpg",
+    title: "Sessions: Happy Birthday Louis",
+  },
+  {
+    slug: "sessions-hella-norcal",
+    src: "https://assets.skatehousemedia.com/Sessions-Hella-Norcal.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Hella-Norcal.jpg",
+    title: "Sessions: Hella Norcal",
+  },
+  {
+    slug: "sessions-laguna",
+    src: "https://assets.skatehousemedia.com/Sessions-Laguna.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Laguna.jpg",
+    title: "Sessions: Laguna",
+  },
+  {
+    slug: "sessions-late-i-go",
+    src: "https://assets.skatehousemedia.com/Sessions-Late-I-Go.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Late-I-Go.jpg",
+    title: "Sessions: Late-I-Go",
+  },
+  {
+    slug: "sessions-levi-purple-green",
+    src: "https://assets.skatehousemedia.com/Sessions-Levi-Purple-Green.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Levi-Purple-Green.jpg",
+    title: "Sessions: Levi Purple Green",
+  },
+  {
+    slug: "sessions-longboard-hockey",
+    src: "https://assets.skatehousemedia.com/Sessions-Longboard-Hockey.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Longboard-Hockey.jpg",
+    title: "Sessions: Longboard Hockey",
+  },
+  {
+    slug: "sessions-maneater",
+    src: "https://assets.skatehousemedia.com/Sessions-Maneater.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Maneater.jpg",
+    title: "Sessions: Maneater",
+  },
+  {
+    slug: "sessions-mclovin",
+    src: "https://assets.skatehousemedia.com/Sessions-McLovin.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-McLovin.jpg",
+    title: "Sessions: McLovin",
+  },
+  {
+    slug: "sessions-nahanajar-rd",
+    src: "https://assets.skatehousemedia.com/Sessions-Nahanajar-Rd.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Nahanajar-Rd.jpg",
+    title: "Sessions: Nahanajar Rd",
+  },
+  {
+    slug: "sessions-norwegian-corners-with-jorge-pernes",
+    src: "https://assets.skatehousemedia.com/Sessions-Norwegian-Corners-with-Jorge-Pernes.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Norwegian-Corners-with-Jorge-Pernes.jpg",
+    title: "Sessions: Norwegian Corners with Jorge Pernes",
+  },
+  {
+    slug: "sessions-nycl",
+    src: "https://assets.skatehousemedia.com/Sessions-NYCL.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-NYCL.jpg",
+    title: "Sessions: NYCL",
+  },
+  {
+    slug: "sessions-ohio",
+    src: "https://assets.skatehousemedia.com/Sessions-Ohio.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Ohio.jpg",
+    title: "Sessions: Ohio",
+  },
+  {
+    slug: "sessions-otang-and-the-porsche-cayenne",
+    src: "https://assets.skatehousemedia.com/Sessions-OTang-and-the-Porsche-Cayenne.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-OTang-and-the-Porsche-Cayenne.jpg",
+    title: "Sessions: Otang and the Porsche Cayenne",
+  },
+  {
+    slug: "sessions-sho-ouellette",
+    src: "https://assets.skatehousemedia.com/Sessions-Sho-Ouellette.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Sho-Ouellette.jpg",
+    title: "Sessions: Sho ouellette",
+  },
+  {
+    slug: "sessions-sk8-bus-escape",
+    src: "https://assets.skatehousemedia.com/Sessions-Sk8-bus-Escape.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Sk8-bus-Escape.jpg",
+    title: "Sessions: Sk8 Bus Escape",
+  },
+  {
+    slug: "sessions-sketchy-mohaulin",
+    src: "https://assets.skatehousemedia.com/Sessions-Sketchy-Mohaulin.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Sketchy-Mohaulin.jpg",
+    title: "Sessions: Sketchy Mohaulin",
+  },
+  {
+    slug: "sessions-sunny-winter-days",
+    src: "https://assets.skatehousemedia.com/Sessions-Sunny-Winter-Days.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Sunny-Winter-Days.jpg",
+    title: "Sessions: Sunny Winter Days",
+  },
+  {
+    slug: "sessions-sunset-motoskate",
+    src: "https://assets.skatehousemedia.com/Sessions-Sunset-MotoSkate.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Sunset-MotoSkate.jpg",
+    title: "Sessions: Sunset Motoskate",
+  },
+  {
+    slug: "sessions-the-chad",
+    src: "https://assets.skatehousemedia.com/Sessions-The-Chad.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-The-Chad.jpg",
+    title: "Sessions: The Chad",
+  },
+  {
+    slug: "sessions-the-great-mountain-road",
+    src: "https://assets.skatehousemedia.com/Sessions-The-Great-Mountain-Road.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-The-Great-Mountain-Road.jpg",
+    title: "Sessions: The Great Mountain Road",
+  },
+  {
+    slug: "sessions-turbo-and-stoney",
+    src: "https://assets.skatehousemedia.com/Sessions-Turbo-and-Stoney.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Turbo-and-Stoney.jpg",
+    title: "Sessions: Turbo and Stoney",
+  },
+  {
+    slug: "sessions-with-a-zipline",
+    src: "https://assets.skatehousemedia.com/Sessions-with-a-Zipline.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-with-a-Zipline.jpg",
+    title: "Sessions: Zipline",
+  },
+  {
+    slug: "sessions-xbox",
+    src: "https://assets.skatehousemedia.com/Sessions-Xbox.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sessions-Xbox.jpg",
+    title: "Sessions: Xbox",
+  },
 ];
 
 export default videos;
