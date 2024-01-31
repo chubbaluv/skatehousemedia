@@ -3813,6 +3813,305 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/rawrunpatsfunk.jpg",
     title: "Raw Run: Pats Funk",
   },
+  {
+    slug: "salmonsessbently",
+    src: "https://assets.skatehousemedia.com/SalmonSessBently.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SalmonSessBently.jpg",
+    title: "Salmon Sess Bently",
+  },
+  {
+    slug: "salsito-live",
+    src: "https://assets.skatehousemedia.com/Salsito-Live.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Salsito-Live.jpg",
+    title: "Salsito Live",
+  },
+  {
+    slug: "salt-spring-slasher-for-skate-house",
+    src: "https://assets.skatehousemedia.com/Salt-Spring-Slasher-for-Skate-House.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Salt-Spring-Slasher-for-Skate-House.jpg",
+    title: "Salt Spring Slasher",
+  },
+  {
+    slug: "santa-gnarbara-outlaw",
+    src: "https://assets.skatehousemedia.com/Santa-Gnarbara-Outlaw.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Santa-Gnarbara-Outlaw.jpg",
+    title: "Santa Gnarbara Outlaw",
+  },
+  {
+    slug: "santa-gnarbara-slide-jam",
+    src: "https://assets.skatehousemedia.com/Santa-Gnarbara-Slide-Jam.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Santa-Gnarbara-Slide-Jam.jpg",
+    title: "Santa Gnarbara Slide Jam",
+  },
+  {
+    slug: "sb-road-trip-part-2",
+    src: "https://assets.skatehousemedia.com/SB-Road-Trip-Part-2.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SB-Road-Trip-Part-2.jpg",
+    title: "SB Road Trip Part II",
+  },
+  {
+    slug: "screwy-louis",
+    src: "https://assets.skatehousemedia.com/Screwy-Louis.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Screwy-Louis.jpg",
+    title: "Screwy Louis",
+  },
+  {
+    slug: "sending-it-at-redbull-steepcrest",
+    src: "https://assets.skatehousemedia.com/Sending-It-at-Redbull-Steepcrest.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sending-It-at-Redbull-Steepcrest.jpg",
+    title: "Redbull Steepcrest",
+  },
+  {
+    slug: "sesion-menstration-pass",
+    src: "https://assets.skatehousemedia.com/Sesion-Menstration-Pass.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sesion-Menstration-Pass.jpg",
+    title: "Sessions: Mac Pass",
+  },
+  {
+    slug: "session-a-janky-afternoon",
+    src: "https://assets.skatehousemedia.com/Session-A-Janky-Afternoon.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-A-Janky-Afternoon.jpg",
+    title: "Sessions: A Janky Afternoon",
+  },
+  {
+    slug: "session-almond-hill",
+    src: "https://assets.skatehousemedia.com/Session-Almond-Hill.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Almond-Hill.jpg",
+    title: "Sessions: Almond Hill",
+  },
+  {
+    slug: "session-angies-curves",
+    src: "https://assets.skatehousemedia.com/Session-Angies-Curves.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Angies-Curves.jpg",
+    title: "Sessions: Angies Curves",
+  },
+  {
+    slug: "session-animal-massacre",
+    src: "https://assets.skatehousemedia.com/Session-Animal-Massacre.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Animal-Massacre.jpg",
+    title: "Sessions: Animal Massacre",
+  },
+  {
+    slug: "session-arbor-and-rayne",
+    src: "https://assets.skatehousemedia.com/Session-Arbor-and-Rayne.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Arbor-and-Rayne.jpg",
+    title: "Sessions: Arbor and Rayne",
+  },
+  {
+    slug: "session-arbor-in-puerto-rico",
+    src: "https://assets.skatehousemedia.com/Session-Arbor-in-Puerto-Rico.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Arbor-in-Puerto-Rico.jpg",
+    title: "Sessions: Arbor in Puerto Rico",
+  },
+  {
+    slug: "session-backside-haze",
+    src: "https://assets.skatehousemedia.com/Session-Backside-Haze.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Backside-Haze.jpg",
+    title: "Sessions: Backside Haze",
+  },
+  {
+    slug: "session-bear-truck-field-trip",
+    src: "https://assets.skatehousemedia.com/Session-Bear-Truck-Field-Trip.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Bear-Truck-Field-Trip.jpg",
+    title: "Sessions: Bear Trucks Field Trip",
+  },
+  {
+    slug: "session-big-bank",
+    src: "https://assets.skatehousemedia.com/Session-Big-Bank.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Big-Bank.jpg",
+    title: "Sessions: Big Bank",
+  },
+  {
+    slug: "session-blazing-saddles",
+    src: "https://assets.skatehousemedia.com/Session-Blazing-Saddles.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Blazing-Saddles.jpg",
+    title: "Sessions: Blazing Saddles",
+  },
+  {
+    slug: "session-bropedanddice",
+    src: "https://assets.skatehousemedia.com/Session-BropedandDice.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-BropedandDice.jpg",
+    title: "Sessions: Broped and Dice",
+  },
+  {
+    slug: "session-comet-shred-city",
+    src: "https://assets.skatehousemedia.com/Session-Comet-Shred-City.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Comet-Shred-City.jpg",
+    title: "Sessions: Comet Shred City",
+  },
+  {
+    slug: "session-crane",
+    src: "https://assets.skatehousemedia.com/Session-Crane.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Crane.jpg",
+    title: "Sessions: Crane",
+  },
+  {
+    slug: "session-gabes-slide-jam",
+    src: "https://assets.skatehousemedia.com/Session-Gabes-Slide-Jam.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Gabes-Slide-Jam.jpg",
+    title: "Sessions: Gabes Slide Jam",
+  },
+  {
+    slug: "session-gotwood-pass-in-the-rocky-state",
+    src: "https://assets.skatehousemedia.com/Session-Gotwood-Pass-in-the-Rocky-State.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Gotwood-Pass-in-the-Rocky-State.jpg",
+    title: "Sessions: Gotwood Pass in the Rocky State",
+  },
+  {
+    slug: "session-jim-rihi",
+    src: "https://assets.skatehousemedia.com/Session-Jim-Rihi.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Jim-Rihi.jpg",
+    title: "Sessions: Jim Rihi",
+  },
+  {
+    slug: "session-josh-sends-a-fax",
+    src: "https://assets.skatehousemedia.com/Session-Josh-sends-a-FAX.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Josh-sends-a-FAX.jpg",
+    title: "Sessions: Josh Sends a Fax",
+  },
+  {
+    slug: "session-jump-ramp",
+    src: "https://assets.skatehousemedia.com/Session-Jump-Ramp.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Jump-Ramp.jpg",
+    title: "Sessions: Jump Ramp",
+  },
+  {
+    slug: "session-lurk-the-berk",
+    src: "https://assets.skatehousemedia.com/Session-Lurk-The-Berk.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Lurk-The-Berk.jpg",
+    title: "Sessions: Lurk the Berk",
+  },
+  {
+    slug: "session-motoskate-with-jeff-budro",
+    src: "https://assets.skatehousemedia.com/Session-MotoSkate-with-Jeff-Budro.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-MotoSkate-with-Jeff-Budro.jpg",
+    title: "Sessions: Motoskate with Jeff Budro",
+  },
+  {
+    slug: "session-muir-lifts-all-day",
+    src: "https://assets.skatehousemedia.com/Session-Muir-Lifts-All-Day.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Muir-Lifts-All-Day.jpg",
+    title: "Sessions: Muir Lifts All Day",
+  },
+  {
+    slug: "session-nogawa-bank",
+    src: "https://assets.skatehousemedia.com/Session-Nogawa-Bank.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Nogawa-Bank.jpg",
+    title: "Sessions: Nogawa Bank",
+  },
+  {
+    slug: "session-norcal-crew",
+    src: "https://assets.skatehousemedia.com/Session-NorCal-crew.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-NorCal-crew.jpg",
+    title: "Sessions: Norcal Crew",
+  },
+  {
+    slug: "session-paris-bbq",
+    src: "https://assets.skatehousemedia.com/Session-Paris-BBQ.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Paris-BBQ.jpg",
+    title: "Sessions: Paris BBQ",
+  },
+  {
+    slug: "session-park-doubles-with-will-and-casey",
+    src: "https://assets.skatehousemedia.com/Session-Park-Doubles-with-Will-and-Casey.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Park-Doubles-with-Will-and-Casey.jpg",
+    title: "Sessions: Park Doubles with Will and Casey",
+  },
+  {
+    slug: "session-pdx-sk8-bus",
+    src: "https://assets.skatehousemedia.com/Session-PDX-Sk8-Bus.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-PDX-Sk8-Bus.jpg",
+    title: "Sessions: PDX Sk8 Bus",
+  },
+  {
+    slug: "session-rubiks-cube-run-with-adam-and-micah",
+    src: "https://assets.skatehousemedia.com/Session-Rubiks-Cube-Run-with-Adam-and-Micah.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Rubiks-Cube-Run-with-Adam-and-Micah.jpg",
+    title: "Sessions: Rubiks Cube Run with Adam and Micah",
+  },
+  {
+    slug: "session-sao-roque",
+    src: "https://assets.skatehousemedia.com/Session-Sao-Roque.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Sao-Roque.jpg",
+    title: "Sessions: Sao Roque",
+  },
+  {
+    slug: "session-saturday-in-the-canyon",
+    src: "https://assets.skatehousemedia.com/Session-Saturday-In-The-Canyon.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Saturday-In-The-Canyon.jpg",
+    title: "Sessions: Saturday in the Canyon",
+  },
+  {
+    slug: "session-skatehousemedia",
+    src: "https://assets.skatehousemedia.com/Session-SkateHouseMedia.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-SkateHouseMedia.jpg",
+    title: "Sessions: Skatehousemedia",
+  },
+  {
+    slug: "session-the-ruapehu-freeride",
+    src: "https://assets.skatehousemedia.com/Session-The-Ruapehu-Freeride.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-The-Ruapehu-Freeride.jpg",
+    title: "Sessions: Ruapehu Freeride",
+  },
+  {
+    slug: "session-three-amigos",
+    src: "https://assets.skatehousemedia.com/Session-Three-Amigos.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Three-Amigos.jpg",
+    title: "Sessions: Three Amigos",
+  },
+  {
+    slug: "session-vernon-access-road",
+    src: "https://assets.skatehousemedia.com/Session-Vernon-Access-Road.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Vernon-Access-Road.jpg",
+    title: "Sessions: Vernon Access Road",
+  },
+  {
+    slug: "session-will-royce",
+    src: "https://assets.skatehousemedia.com/Session-Will-Royce.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Session-Will-Royce.jpg",
+    title: "Sessions: Will Royce",
+  },
 ];
 
 export default videos;
