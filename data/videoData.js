@@ -4370,6 +4370,149 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/Sessions-Xbox.jpg",
     title: "Sessions: Xbox",
   },
+  {
+    slug: "shm_alicanteraw",
+    src: "https://assets.skatehousemedia.com/SHM_alicanteraw.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM_alicanteraw.jpg",
+    title: "Raw Run: Alicante",
+  },
+  {
+    slug: "shm-2013-compilation-part-1",
+    src: "https://assets.skatehousemedia.com/SHM-2013-Compilation-Part-1.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-2013-Compilation-Part-1.jpg",
+    title: "2013 Compilation Part 1",
+  },
+  {
+    slug: "shm-2013-compilation-part-2",
+    src: "https://assets.skatehousemedia.com/SHM-2013-Compilation-Part-2.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-2013-Compilation-Part-2.jpg",
+    title: "2013 Compilation Part 2",
+  },
+  {
+    slug: "shm-arbor-dannymac-full",
+    src: "https://assets.skatehousemedia.com/SHM-Arbor-DannyMac-full.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-Arbor-DannyMac-full.jpg",
+    title: "Danny Mac",
+  },
+  {
+    slug: "shm-arbor-josh-neuman-full",
+    src: "https://assets.skatehousemedia.com/SHM-Arbor-Josh-Neuman-full.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-Arbor-Josh-Neuman-full.jpg",
+    title: "Josh Neuman",
+  },
+  {
+    slug: "shm-boone-2-rough",
+    src: "https://assets.skatehousemedia.com/SHM-Boone-2-Rough.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-Boone-2-Rough.jpg",
+    title: "Boone",
+  },
+  {
+    slug: "shm-cut",
+    src: "https://assets.skatehousemedia.com/shm-cut.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/shm-cut.jpg",
+    title: "Whistler BTS",
+  },
+  {
+    slug: "shm-euskadi",
+    src: "https://assets.skatehousemedia.com/shm-euskadi.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/shm-euskadi.jpg",
+    title: "Euskadi",
+  },
+  {
+    slug: "shm-in-dominican-republic",
+    src: "https://assets.skatehousemedia.com/SHM-in-Dominican-Republic.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-in-Dominican-Republic.jpg",
+    title: "Dominican Republic",
+  },
+  {
+    slug: "shm-sketch-fest-ii",
+    src: "https://assets.skatehousemedia.com/SHM-Sketch-Fest-II.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SHM-Sketch-Fest-II.jpg",
+    title: "Sketch Fest II",
+  },
+  {
+    slug: "simpsons-slide-jam",
+    src: "https://assets.skatehousemedia.com/simpsons-slide-jam.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/simpsons-slide-jam.jpg",
+    title: "Simpsons Slide Jam",
+  },
+  {
+    slug: "six-pack",
+    src: "https://assets.skatehousemedia.com/SIX-PACK.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/SIX-PACK.jpg",
+    title: "Six Pack",
+  },
+  {
+    slug: "skate-hard-skate-safe-vol-2",
+    src: "https://assets.skatehousemedia.com/Skate-Hard-Skate-Safe-Vol-2.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skate-Hard-Skate-Safe-Vol-2.jpg",
+    title: "Skate Hard Skate Safe Vol. 2",
+  },
+  {
+    slug: "skate-house-escobar",
+    src: "https://assets.skatehousemedia.com/Skate-House-Escobar.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skate-House-Escobar.jpg",
+    title: "Escobar",
+  },
+  {
+    slug: "skate-house-media-2014-compilation-part-1",
+    src: "https://assets.skatehousemedia.com/Skate-House-Media-2014-Compilation-Part-1.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skate-House-Media-2014-Compilation-Part-1.jpg",
+    title: "2014 Compilation Part I",
+  },
+  {
+    slug: "skate-house-media-compilation-2014-part-2",
+    src: "https://assets.skatehousemedia.com/Skate-House-Media-Compilation-2014-Part-2.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skate-House-Media-Compilation-2014-Part-2.jpg",
+    title: "2014 Compilation Part II",
+  },
+  {
+    slug: "skate-nerd-mold-release-with-zak-maytum",
+    src: "https://assets.skatehousemedia.com/Skate-Nerd-Mold-Release-with-Zak-Maytum.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skate-Nerd-Mold-Release-with-Zak-Maytum.jpg",
+    title: "Skate Nerd: Mold Release with Zak Maytum",
+  },
+  {
+    slug: "skateboard-party",
+    src: "https://assets.skatehousemedia.com/Skateboard-Party.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skateboard-Party.jpg",
+    title: "Skateboard Party",
+  },
+  {
+    slug: "skatehouse-visitor-ian-freire",
+    src: "https://assets.skatehousemedia.com/Skatehouse-Visitor-Ian-Freire.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatehouse-Visitor-Ian-Freire.jpg",
+    title: "Visitors: Ian Freire",
+  },
+  {
+    slug: "skatehouse",
+    src: "https://assets.skatehousemedia.com/SKATEHOUSE.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/SKATEHOUSE.jpg",
+    title: "Skatehouse",
+  },
+  {
+    slug: "skatehousemedia-in-puerto-rico",
+    src: "https://assets.skatehousemedia.com/SkateHouseMedia-in-Puerto-Rico.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/SkateHouseMedia-in-Puerto-Rico.jpg",
+    title: "Puerto Rico",
+  },
 ];
 
 export default videos;
