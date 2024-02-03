@@ -4513,6 +4513,248 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/SkateHouseMedia-in-Puerto-Rico.jpg",
     title: "Puerto Rico",
   },
+  {
+    slug: "skatesgiving-black-out",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Black-Out.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Black-Out.jpg",
+    title: "Skatesgiving: Black Out",
+  },
+  {
+    slug: "skatesgiving-camp-sucky",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Camp-Sucky.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Camp-Sucky.jpg",
+    title: "Skatesgiving: Camp Sucky",
+  },
+  {
+    slug: "skatesgiving-dry-run",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Dry-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Dry-Run.jpg",
+    title: "Skatesgiving: Dry Run",
+  },
+  {
+    slug: "skatesgiving-east-coast-corner-session",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-East-Coast-Corner-Session.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-East-Coast-Corner-Session.jpg",
+    title: "Skatesgiving: East Coast Corner Session",
+  },
+  {
+    slug: "skatesgiving-hang-loose",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Hang-Loose.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Hang-Loose.jpg",
+    title: "Skatesgiving: Hang Loose",
+  },
+  {
+    slug: "skatesgiving-in-full-effect",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-in-full-effect.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-in-full-effect.jpg",
+    title: "Skatesgiving: In Full Effect",
+  },
+  {
+    slug: "skatesgiving-introduction",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Introduction.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Introduction.jpg",
+    title: "Skatesgiving: Introduction",
+  },
+  {
+    slug: "skatesgiving-lurk-hard",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Lurk-Hard.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Lurk-Hard.jpg",
+    title: "Skatesgiving: Lurk Hard",
+  },
+  {
+    slug: "skatesgiving-lurk",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Lurk.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Lurk.jpg",
+    title: "Skatesgiving: Lurk",
+  },
+  {
+    slug: "skatesgiving-mordor",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-MORDOR.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-MORDOR.jpg",
+    title: "Skatesgiving: Mordor",
+  },
+  {
+    slug: "skatesgiving-on-the-road",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-On-The-Road.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-On-The-Road.jpg",
+    title: "Skatesgiving: On the Road",
+  },
+  {
+    slug: "skatesgiving-raw-dry-run",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Raw-Dry-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Raw-Dry-Run.jpg",
+    title: "Skatesgiving: Raw Dry Run",
+  },
+  {
+    slug: "skatesgiving-secret-surf-spot",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Secret-Surf-Spot.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Secret-Surf-Spot.jpg",
+    title: "Skatesgiving: Secret Surf Spot",
+  },
+  {
+    slug: "skatesgiving-skatopia",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Skatopia.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Skatopia.jpg",
+    title: "Skatesgiving: Skatopia",
+  },
+  {
+    slug: "skatesgiving-soldiers-of-downhill",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Soldiers-Of-Downhill.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Soldiers-Of-Downhill.jpg",
+    title: "Skatesgiving: Soldiers of Downhill",
+  },
+  {
+    slug: "skatesgiving-the-orchard",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-The-Orchard.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-The-Orchard.jpg",
+    title: "Skatesgiving: The Orchard",
+  },
+  {
+    slug: "skatesgiving-the-south",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-The-South.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-The-South.jpg",
+    title: "Skatesgiving: The South",
+  },
+  {
+    slug: "skatesgiving-vermont",
+    src: "https://assets.skatehousemedia.com/Skatesgiving-Vermont.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skatesgiving-Vermont.jpg",
+    title: "Skatesgiving: Vermont",
+  },
+  {
+    slug: "skating-to-work-with-jeff-budro",
+    src: "https://assets.skatehousemedia.com/Skating-to-Work-with-Jeff-Budro.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Skating-to-Work-with-Jeff-Budro.jpg",
+    title: "Skating to Work with Jeff Budro",
+  },
+  {
+    slug: "sketch-fest-iii",
+    src: "https://assets.skatehousemedia.com/sketch-fest-III.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/sketch-fest-III.jpg",
+    title: "Sketch Fest III",
+  },
+  {
+    slug: "sketch-fest",
+    src: "https://assets.skatehousemedia.com/Sketch-Fest.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Sketch-Fest.jpg",
+    title: "Sketch Fest",
+  },
+  {
+    slug: "slap-2012",
+    src: "https://assets.skatehousemedia.com/SLAP-2012.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/SLAP-2012.jpg",
+    title: "Ditch Slap 2012",
+  },
+  {
+    slug: "slide-jam-colombia-bogota",
+    src: "https://assets.skatehousemedia.com/slide-jam-colombia-bogota.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/slide-jam-colombia-bogota.jpg",
+    title: "Bogota Slide Jam",
+  },
+  {
+    slug: "snake-skeletion-raw-run",
+    src: "https://assets.skatehousemedia.com/Snake-Skeletion-Raw-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Snake-Skeletion-Raw-Run.jpg",
+    title: "Raw Run: Snake Skeleton",
+  },
+  {
+    slug: "snakeskelitonfinals",
+    src: "https://assets.skatehousemedia.com/Snakeskelitonfinals.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Snakeskelitonfinals.jpg",
+    title: "Snake Skeleton Finals",
+  },
+  {
+    slug: "soldiers-of-downhill-2012-finals",
+    src: "https://assets.skatehousemedia.com/Soldiers-Of-Downhill-2012-Finals.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Soldiers-Of-Downhill-2012-Finals.jpg",
+    title: "Soldiers of Downhill 2012 Finals",
+  },
+  {
+    slug: "soldiers-of-downhill-finals",
+    src: "https://assets.skatehousemedia.com/Soldiers-of-Downhill-Finals.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Soldiers-of-Downhill-Finals.jpg",
+    title: "Soldiers of Downhill Finals",
+  },
+  {
+    slug: "soldiers",
+    src: "https://assets.skatehousemedia.com/SOLDIERS.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/SOLDIERS.jpg",
+    title: "Soldiers",
+  },
+  {
+    slug: "solo-cut-with-james-kelly",
+    src: "https://assets.skatehousemedia.com/Solo-Cut-with-James-Kelly.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Solo-Cut-with-James-Kelly.jpg",
+    title: "James Kelly Solo",
+  },
+  {
+    slug: "south-side-medellin-shm",
+    src: "https://assets.skatehousemedia.com/south-side-medellin-shm.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/south-side-medellin-shm.jpg",
+    title: "Souths Side Medellin",
+  },
+  {
+    slug: "spanish-groms-crashing",
+    src: "https://assets.skatehousemedia.com/Spanish-Groms-Crashing.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Spanish-Groms-Crashing.jpg",
+    title: "Spanish Groms Crashing",
+  },
+  {
+    slug: "spring-freeride-helicopter-run",
+    src: "https://assets.skatehousemedia.com/Spring-Freeride-Helicopter-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Spring-Freeride-Helicopter-Run.jpg",
+    title: "Spring Freeride Helicopter Run",
+  },
+  {
+    slug: "ste-marie-sport-festival",
+    src: "https://assets.skatehousemedia.com/Ste-Marie-Sport-Festival.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Ste-Marie-Sport-Festival.jpg",
+    title: "Ste Marie Sport Festival",
+  },
+  {
+    slug: "sunday-afternoon-with-the-bu-cru",
+    src: "https://assets.skatehousemedia.com/Sunday-Afternoon-with-the-Bu-Cru.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Sunday-Afternoon-with-the-Bu-Cru.jpg",
+    title: "Sunday Afternoon with the Bu Cru",
+  },
+  {
+    slug: "switzer-raw-run",
+    src: "https://assets.skatehousemedia.com/Switzer-Raw-Run.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Switzer-Raw-Run.jpg",
+    title: "Raw Run: Switzer",
+  },
 ];
 
 export default videos;
