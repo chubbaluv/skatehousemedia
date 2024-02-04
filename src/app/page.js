@@ -1,5 +1,5 @@
-'use client'
-import Link from 'next/link';
+"use client";
+import Link from "next/link";
 import {
   IntroParagraph,
   LogoWrapper,
@@ -7,9 +7,9 @@ import {
   PageWrapper,
   SponsorLogo,
   SponsorWrapper,
-  TipMe
-} from './home-styled';
-import { MidsLogo, ShmLogo, VenomLogo } from '#/components/enhancedSvg/svgs';
+  TipMe,
+} from "./home-styled";
+import { MidsLogo, ShmLogo, VenomLogo } from "#/components/enhancedSvg/svgs";
 
 export default function Home() {
   return (
@@ -17,26 +17,28 @@ export default function Home() {
       <LogoWrapper>
         <ShmLogo customWidth={500} />
       </LogoWrapper>
-      <Link href='/archive'>
-        <NavigationItem variant='4'>The Archive</NavigationItem>
+      <Link href="/archive">
+        <NavigationItem variant="4">The Archive</NavigationItem>
       </Link>
       {/* <Link href='/shuffle'>
         <NavigationItem variant='4'>Shuffle</NavigationItem>
       </Link> */}
-      <IntroParagraph textAlignment='center' variant='6'>
+      <IntroParagraph textAlignment="center" variant="6">
         {`This months site fees are paid for by:`}
       </IntroParagraph>
       <SponsorWrapper>
-        <SponsorLogo as='a' href='http://venomskate.com/'>
+        <SponsorLogo as="a" href="http://venomskate.com/">
           <VenomLogo customWidth={300} />
         </SponsorLogo>
-        <SponsorLogo as='a' href='https://www.mids4life.com/'>
+        <SponsorLogo as="a" href="https://www.mids4life.com/">
           <MidsLogo customWidth={175} />
         </SponsorLogo>
       </SponsorWrapper>
-      <TipMe italic={true} textAlignment='center' variant='6'>
-        {`We're so back. We're standing up the archive of all of the preserved SkateHouseMedia files in the most cost effective way possible. Right now it's just a couple of us working on this, so thanks for being patient as we process this content and add new features. (want to buy us a coffee for doing this? my venmo is @chubbaluv)`}
+      <TipMe italic={true} textAlignment="center" variant="6">
+        {`Welcome to the archive! We'll be slowly adding some features to the site so be patient.`}
+        <br></br>
+        {`(want to buy us a coffee for doing this? my venmo is @chubbaluv)`}
       </TipMe>
     </PageWrapper>
-  )
+  );
 }
