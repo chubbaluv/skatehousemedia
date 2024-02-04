@@ -4755,6 +4755,164 @@ const videos = [
       "https://assets.skatehousemedia.com/thumbnails/Switzer-Raw-Run.jpg",
     title: "Raw Run: Switzer",
   },
+  {
+    slug: "team-nobull-bayou-battle",
+    src: "https://assets.skatehousemedia.com/Team-NoBull-Bayou-Battle.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Team-NoBull-Bayou-Battle.jpg",
+    title: "Team Nobull Bayou Battle",
+  },
+  {
+    slug: "teta-will-shm",
+    src: "https://assets.skatehousemedia.com/Teta-Will-SHM.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Teta-Will-SHM.jpg",
+    title: "Teta Will",
+  },
+  {
+    slug: "texas-session",
+    src: "https://assets.skatehousemedia.com/Texas-Session.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Texas-Session.jpg",
+    title: "Sessions: Texas",
+  },
+  {
+    slug: "the-creaky-boulder",
+    src: "https://assets.skatehousemedia.com/The-Creaky-Boulder.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/The-Creaky-Boulder.jpg",
+    title: "The Creaky Boulder",
+  },
+  {
+    slug: "the-houston-chronicles",
+    src: "https://assets.skatehousemedia.com/The-Houston-Chronicles.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/The-Houston-Chronicles.jpg",
+    title: "The Houston Chronicles",
+  },
+  {
+    slug: "the-island-2",
+    src: "https://assets.skatehousemedia.com/the-island-2.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/the-island-2.jpg",
+    title: "The Island 2",
+  },
+  {
+    slug: "the-island-3",
+    src: "https://assets.skatehousemedia.com/the-island-3.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/the-island-3.jpg",
+    title: "The Island 3",
+  },
+  {
+    slug: "the-madagascar-gnar",
+    src: "https://assets.skatehousemedia.com/The-Madagascar-Gnar.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/The-Madagascar-Gnar.jpg",
+    title: "The Madagascar Gnar",
+  },
+  {
+    slug: "the-real-salt-lake",
+    src: "https://assets.skatehousemedia.com/The-Real-Salt-Lake.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/The-Real-Salt-Lake.jpg",
+    title: "The Real Salt Lake",
+  },
+  {
+    slug: "the-sullivan-challenge",
+    src: "https://assets.skatehousemedia.com/The-Sullivan-Challenge.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/The-Sullivan-Challenge.jpg",
+    title: "The Sullivan Challenge",
+  },
+  {
+    slug: "the-sunset-sliders-scramble",
+    src: "https://assets.skatehousemedia.com/The-Sunset-Sliders-Scramble.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/The-Sunset-Sliders-Scramble.jpg",
+    title: "The Sunset Sliders Scramble",
+  },
+  {
+    slug: "this-shit",
+    src: "https://assets.skatehousemedia.com/THIS-SHIT.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/THIS-SHIT.jpg",
+    title: "This Shit",
+  },
+  {
+    slug: "timeship-racings-skate-school",
+    src: "https://assets.skatehousemedia.com/Timeship-Racings-Skate-School.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Timeship-Racings-Skate-School.jpg",
+    title: "Timeship Racings Skate School",
+  },
+  {
+    slug: "toti-floti",
+    src: "https://assets.skatehousemedia.com/toti-floti.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/toti-floti.jpg",
+    title: "Toti Floti",
+  },
+  {
+    slug: "toti-raw-anaconda",
+    src: "https://assets.skatehousemedia.com/toti-raw-anaconda.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/toti-raw-anaconda.jpg",
+    title: "Raw Run: Toti Anaconda",
+  },
+  {
+    slug: "towell",
+    src: "https://assets.skatehousemedia.com/towell.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/towell.jpg",
+    title: "Towell",
+  },
+  {
+    slug: "trip-with-g-mack",
+    src: "https://assets.skatehousemedia.com/Trip-with-G-Mack.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Trip-with-G-Mack.jpg",
+    title: "Trip with G Mack",
+  },
+  {
+    slug: "troy-shm",
+    src: "https://assets.skatehousemedia.com/Troy-SHM.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Troy-SHM.jpg",
+    title: "Troy",
+  },
+  {
+    slug: "turk-a-lurk-rough",
+    src: "https://assets.skatehousemedia.com/TURK-A-LURK-ROUGH.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/TURK-A-LURK-ROUGH.jpg",
+    title: "Turk a Lurk rough",
+  },
+  {
+    slug: "turk-a-lurk",
+    src: "https://assets.skatehousemedia.com/Turk-A-Lurk.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Turk-A-Lurk.jpg",
+    title: "Turk a Lurk",
+  },
+  {
+    slug: "turkey",
+    src: "https://assets.skatehousemedia.com/Turkey.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/Turkey.jpg",
+    title: "Turkey",
+  },
+  {
+    slug: "uc",
+    src: "https://assets.skatehousemedia.com/UC.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/UC.jpg",
+    title: "UC",
+  },
+  {
+    slug: "ultime-descente-top-speed-challenge",
+    src: "https://assets.skatehousemedia.com/Ultime-Descente-Top-Speed-Challenge.mp4",
+    thumbnail:
+      "https://assets.skatehousemedia.com/thumbnails/Ultime-Descente-Top-Speed-Challenge.jpg",
+    title: "Top Speed Challenge",
+  },
+  {
+    slug: "unknown-2",
+    src: "https://assets.skatehousemedia.com/unknown-2.mp4",
+    thumbnail: "https://assets.skatehousemedia.com/thumbnails/unknown-2.jpg",
+    title: "Menlo Park",
+  },
 ];
 
 export default videos;
