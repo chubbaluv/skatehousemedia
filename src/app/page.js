@@ -17,12 +17,12 @@ export default function Home() {
       <LogoWrapper>
         <ShmLogo customWidth={500} />
       </LogoWrapper>
+      <Link href="/shuffle">
+        <NavigationItem variant="4">Shuffle</NavigationItem>
+      </Link>
       <Link href="/archive">
         <NavigationItem variant="4">The Archive</NavigationItem>
       </Link>
-      {/* <Link href='/shuffle'>
-        <NavigationItem variant='4'>Shuffle</NavigationItem>
-      </Link> */}
       <IntroParagraph textAlignment="center" variant="6">
         {`This months site fees are paid for by:`}
       </IntroParagraph>

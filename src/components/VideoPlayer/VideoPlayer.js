@@ -1,13 +1,16 @@
 "use client";
 import { VideoWrapper } from "./VideoPlayerStyled";
 
-const VideoPlayer = ({ src, thumbnail }) => {
+const VideoPlayer = ({ ref, shouldAutoPlay, src, thumbnail }) => {
   return (
     <VideoWrapper>
       <video
+        autoPlay={shouldAutoPlay}
         controls
+        muted={shouldAutoPlay}
         preload="none"
         poster={thumbnail}
+        ref={ref}
         src={src}
         type="video/mp4"
       />

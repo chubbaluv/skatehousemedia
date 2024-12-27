@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, Fragment } from "react";
+import { useEffect, useRef, useState, Fragment } from "react";
 import videos from "../../../data/videoData";
 import {
   Column,
@@ -20,9 +20,11 @@ import Button from "#/components/Button";
 
 const Shuffle = () => {
   // TO-DO:
-  // - We need to add a callback function for the ended event to start the next video https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event
   // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback. Very annoying, but this will prevent a run on resources if someone accidentally leaves shuffle playing."
 
+  const videoRef = useRef(null);
+  const unMutedVideo = useRef(false);
+  const videoPlayCount = useRef(0);
   const [currentIndex, setCurentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
@@ -40,7 +42,11 @@ const Shuffle = () => {
     setCurentIndex(0);
   };
 
-  const handleNextClick = () => setCurentIndex(currentIndex + 1);
+  const setVideoToNext = () => {
+    setCurentIndex(currentIndex + 1);
+    unMutedVideo.current = false;
+    videoPlayCount.current = videoPlayCount.current + 1;
+  };
 
   useEffect(() => {
     shuffleVideos();
@@ -50,6 +56,22 @@ const Shuffle = () => {
   useEffect(() => {
     setCurrentVideo(shuffledList[currentIndex]);
   }, [currentIndex, shuffledList]);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      // This is all to avoid autoplay blocking
+      videoRef.current.onplaying = () => {
+        if (!unMutedVideo.current) {
+          videoRef.current.muted = false;
+          unMutedVideo.current = true;
+        }
+      };
+      videoRef.current.onended = () => {
+        setVideoToNext();
+      };
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [videoRef.current]);
 
   return (
     <>
@@ -63,13 +85,15 @@ const Shuffle = () => {
           Shuffle
         </Headline>
         <VideoPlayer
+          ref={videoRef}
+          shouldAutoPlay={true}
           src={currentVideo?.src}
           thumbnail={currentVideo?.thumbnail}
         />
         <TitleWrapper>
           <Subhead variant="2">{currentVideo?.title}</Subhead>
           <Fragment>
-            <Button handleClick={() => handleNextClick()}>
+            <Button handleClick={() => setVideoToNext()}>
               <Subhead variant="4">Skip</Subhead>
             </Button>
             <Button handleClick={() => shuffleVideos()}>
@@ -84,7 +108,7 @@ const Shuffle = () => {
         >
           Up Next:
         </Headline>
-        <UpNextCard onClick={() => handleNextClick()}>
+        <UpNextCard onClick={() => setVideoToNext()}>
           <EntryThumbnail
             $backgroundImage={shuffledList[currentIndex + 1]?.thumbnail}
           />
