@@ -4,6 +4,7 @@ import videos from "../../../data/videoData";
 import {
   Column,
   EntryThumbnail,
+  MessageWrapper,
   PageWrapper,
   TitleWrapper,
   UpNextCard,
@@ -13,21 +14,34 @@ import {
   Headline,
   Subhead,
 } from "#/components/Typography/Typography";
-import { basePadding } from "#/theme";
+import { baseColors, basePadding } from "#/theme";
 import BackButtonBar from "#/components/BackButtonBar";
 import VideoPlayer from "#/components/VideoPlayer";
 import Button from "#/components/Button";
+import Popup from "#/components/Popup/Popup";
+import useTimer from "#/hooks/useTimer";
 
 const Shuffle = () => {
-  // TO-DO:
-  // - Have a "Are you still watching" popup that displays every 5 videos and pauses playback. Very annoying, but this will prevent a run on resources if someone accidentally leaves shuffle playing."
-
   const videoRef = useRef(null);
   const unMutedVideo = useRef(false);
   const videoPlayCount = useRef(0);
   const [currentIndex, setCurentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
+  const [showContinueWatching, setShowContinueWatching] = useState(true);
+
+  // Set an expiration time to pop the 'Continue watching' popup
+  // Set to 25 minutes
+  const expiryTimestamp = new Date();
+  expiryTimestamp.setSeconds(expiryTimestamp.getSeconds() + 1500);
+
+  const { restart } = useTimer({
+    expiryTimestamp,
+    onExpire: () => {
+      videoRef?.current?.pause();
+      setShowContinueWatching(true);
+    },
+  });
 
   const shuffleVideos = () => {
     const newShuffle = [].concat(shuffledList);
@@ -46,6 +60,13 @@ const Shuffle = () => {
     setCurentIndex(currentIndex + 1);
     unMutedVideo.current = false;
     videoPlayCount.current = videoPlayCount.current + 1;
+  };
+
+  const handleKeepWatchingClick = () => {
+    // restart the timer
+    restart(expiryTimestamp);
+    setShowContinueWatching(false);
+    videoRef?.current?.play();
   };
 
   useEffect(() => {
@@ -74,7 +95,7 @@ const Shuffle = () => {
   }, [videoRef.current]);
 
   return (
-    <>
+    <Fragment>
       <BackButtonBar />
       <PageWrapper>
         <Headline
@@ -120,7 +141,24 @@ const Shuffle = () => {
           </Column>
         </UpNextCard>
       </PageWrapper>
-    </>
+      <Popup
+        handleClose={() => handleKeepWatchingClick()}
+        isOpen={showContinueWatching}
+      >
+        <MessageWrapper>
+          <Subhead color={baseColors.black} variant="2">
+            Still watching?
+          </Subhead>
+          <BodyText color={baseColors.black} variant="4">
+            Sorry to interrupt, but we just want to make sure you are still
+            there and not running up our tab for no reason.
+          </BodyText>
+          <Button handleClick={() => handleKeepWatchingClick()} mode="dark">
+            Keep Watching
+          </Button>
+        </MessageWrapper>
+      </Popup>
+    </Fragment>
   );
 };
 

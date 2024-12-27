@@ -16,6 +16,17 @@ export const EntryThumbnail = styled.div`
   width: 100%;
 `;
 
+export const MessageWrapper = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: ${basePadding.mediumLarge};
+  justify-content: center;
+  max-width: 700px;
+  padding: ${basePadding.xLarge};
+  text-align: center;
+`;
+
 export const PageWrapper = styled.main`
   display: flex;
   flex-direction: column;
