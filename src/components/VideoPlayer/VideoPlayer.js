@@ -1,16 +1,15 @@
-'use client'
+"use client";
 import { VideoWrapper } from "./VideoPlayerStyled";
 
 const VideoPlayer = ({ src, thumbnail }) => {
-
   return (
     <VideoWrapper>
       <video
         controls
-        preload='none'
+        preload="none"
         poster={thumbnail}
         src={src}
-        type='video/mp4'
+        type="video/mp4"
       />
     </VideoWrapper>
   );

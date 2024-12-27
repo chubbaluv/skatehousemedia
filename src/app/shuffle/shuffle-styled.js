@@ -1,6 +1,20 @@
-'use client'
+"use client";
 import styled from "styled-components";
 import { baseColors, basePadding, transition } from "#/theme";
+
+export const Column = styled.div`
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-block: ${basePadding.large};
+`;
+
+export const EntryThumbnail = styled.div`
+  background: ${({ $backgroundImage }) =>
+    `no-repeat center / cover url(${$backgroundImage})`};
+  height: 100%;
+  width: 100%;
+`;
 
 export const PageWrapper = styled.main`
   display: flex;
@@ -21,26 +35,17 @@ export const TitleWrapper = styled.div`
   width: 100%;
 `;
 
-export const VideoList = styled.div`
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-block-start: ${basePadding.xxxLarge};
-  max-width: 700px;
-  width: 100%;
-`;
-
-export const ListEntry = styled.button`
+export const UpNextCard = styled.button`
   align-items: center;
   background: ${baseColors.gray1};
   border: none;
   border-radius: 8px;
   cursor: pointer;
   display: grid;
-  grid-template-columns: 150px 1fr 100px;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: ${basePadding.large};
   margin-block-start: ${basePadding.large};
+  max-width: 700px;
   overflow: hidden;
   text-align: left;
   transition: ${transition.default};
@@ -49,10 +54,4 @@ export const ListEntry = styled.button`
   &:hover {
     background: ${baseColors.gray2};
   }
-`;
-
-export const EntryThumbnail = styled.div`
-  aspect-ratio: 16 / 9;
-  background: ${({ $backgroundImage }) => `no-repeat center / cover url(${$backgroundImage})`};
-  width: 150px;
 `;

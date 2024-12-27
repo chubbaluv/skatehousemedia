@@ -47,7 +47,7 @@ const Archive = () => {
                   lazyLoad={index > 9}
                   offset={0}
                   height={0}
-                  key={title}
+                  key={`${title}-${index}`}
                 >
                   <VideoCard slug={slug} thumbnail={thumbnail} title={title} />
                 </LazyWrapper>

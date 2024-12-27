@@ -2646,11 +2646,11 @@ const videos = [
     title: "Quick Clip: Louis and James",
   },
   {
-    slug: "quick-clip-pat-schep",
+    slug: "quick-clip-pat-schep-1",
     src: "https://assets.skatehousemedia.com/Quick-Clip-Pat-Schep.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Quick-Clip-Pat-Schep.jpg",
-    title: "Quick Clip: Pat Schep",
+    title: "Quick Clip: Pat Schep #1",
   },
   {
     slug: "quick-clip-pete-bombs-the-tunnels",
@@ -2713,7 +2713,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Quick-Clips-Ben-Dub.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Ben-Dub.jpg",
-    title: "Quick Clip: Ben Dub",
+    title: "Quick Clip: Ben Dub #1",
   },
   {
     slug: "quick-clips-benjamin-dubreuil",
@@ -2849,11 +2849,11 @@ const videos = [
     title: "Quick Clip: Mt. St. Helen Pack Weaving",
   },
   {
-    slug: "quick-clips-pat-schep",
+    slug: "quick-clips-pat-schep-2",
     src: "https://assets.skatehousemedia.com/Quick-Clips-Pat-Schep.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Pat-Schep.jpg",
-    title: "Quick Clip: Pat Schep",
+    title: "Quick Clip: Pat Schep #2",
   },
   {
     slug: "quick-clips-peru",
@@ -2902,7 +2902,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Quick-Clips-Sidewalk-Bomb-with-Ben-Dub.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Quick-Clips-Sidewalk-Bomb-with-Ben-Dub.jpg",
-    title: "Quick Clip: Ben Dub",
+    title: "Quick Clip: Ben Dub #2",
   },
   {
     slug: "quick-clips-sydney-boarder-x",
@@ -3776,7 +3776,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Raw-Run-Will-Seal.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Raw-Run-Will-Seal.jpg",
-    title: "Raw Run: Will Seal",
+    title: "Raw Run: Will Seal #1",
   },
   {
     slug: "raw-run-zak-maytum-barrett-junction",
@@ -4429,7 +4429,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/SHM-in-Dominican-Republic.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/SHM-in-Dominican-Republic.jpg",
-    title: "Dominican Republic",
+    title: " SHM in the Dominican Republic",
   },
   {
     slug: "shm-sketch-fest-ii",
@@ -5044,7 +5044,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Visitor-Patrick-Switzer.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Visitor-Patrick-Switzer.jpg",
-    title: "Visitors: Patrick Switzer",
+    title: "Visitors: Patrick Switzer #1",
   },
   {
     slug: "visitor-rylan-raggie-english",
@@ -5219,7 +5219,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/Visitors-Patrick-Switzer.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/Visitors-Patrick-Switzer.jpg",
-    title: "Visitors: Patrick Switzer",
+    title: "Visitors: Patrick Switzer #2",
   },
   {
     slug: "visitors-portland-crew",
@@ -5362,7 +5362,7 @@ const videos = [
     src: "https://assets.skatehousemedia.com/WILL-SEAL-RAW.mp4",
     thumbnail:
       "https://assets.skatehousemedia.com/thumbnails/WILL-SEAL-RAW.jpg",
-    title: "Raw Run: Will Seal",
+    title: "Raw Run: Will Seal #2",
   },
   {
     slug: "winter-wonderland-raw-run",
