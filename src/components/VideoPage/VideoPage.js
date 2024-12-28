@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { TitleWrapper } from "./VideoPageStyled";
 import { Headline } from "#/components/Typography/Typography";
 import BackButtonBar from "../BackButtonBar";
@@ -9,16 +9,13 @@ const VideoPage = ({ video }) => {
 
   return (
     <>
-      <BackButtonBar />
+      <BackButtonBar target={"/archive"} />
       <TitleWrapper>
-        <Headline as='h1' variant='4'>
+        <Headline as="h1" variant="4">
           {title}
         </Headline>
       </TitleWrapper>
-      <VideoPlayer
-        thumbnail={thumbnail}
-        src={src}
-      />
+      <VideoPlayer thumbnail={thumbnail} src={src} />
     </>
   );
 };
