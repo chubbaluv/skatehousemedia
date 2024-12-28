@@ -28,7 +28,7 @@ const Archive = () => {
 
   return (
     <>
-      <BackButtonBar />
+      <BackButtonBar target={"/"} />
       <PageWrapper>
         <Headline
           as="h1"

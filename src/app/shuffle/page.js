@@ -28,7 +28,7 @@ const Shuffle = () => {
   const [currentIndex, setCurentIndex] = useState(0);
   const [shuffledList, setShuffledList] = useState(videos);
   const [currentVideo, setCurrentVideo] = useState(shuffledList[currentIndex]);
-  const [showContinueWatching, setShowContinueWatching] = useState(true);
+  const [showContinueWatching, setShowContinueWatching] = useState(false);
 
   // Set an expiration time to pop the 'Continue watching' popup
   // Set to 25 minutes
@@ -96,7 +96,7 @@ const Shuffle = () => {
 
   return (
     <Fragment>
-      <BackButtonBar />
+      <BackButtonBar target={"/"} />
       <PageWrapper>
         <Headline
           as="h1"

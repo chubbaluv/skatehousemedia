@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useRouter } from "next/navigation";
 import styled from "styled-components";
 import { Subhead } from "#/components/Typography/Typography";
@@ -23,14 +23,14 @@ const BackButtonWrapper = styled.div`
   }
 `;
 
-const BackButtonBar = () => {
+const BackButtonBar = ({ target = "/" }) => {
   const router = useRouter();
-  const goBackLabel = '< Go Back';
+  const goBackLabel = "< Go Back";
 
   return (
     <BackButtonWrapper>
-      <button type='button' onClick={() => router.back()}>
-        <Subhead variant='3'>{goBackLabel}</Subhead>
+      <button type="button" onClick={() => router.push(target)}>
+        <Subhead variant="3">{goBackLabel}</Subhead>
       </button>
     </BackButtonWrapper>
   );
